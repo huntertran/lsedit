@@ -1,12 +1,15 @@
 LSEDIT - Landscape edit by SWAG, University of Waterloo
 ---
 
-> This is a non-official mirror of `lsedit`
+> This is a non-official mirror of [`lsedit`](https://www.swag.uwaterloo.ca/lsedit/)
 
 # License
 We're contacting the SWAG team for more information about licensing of this source code.
 
 # Run
+
+> Java version: 13
+
 Using `vscode`, go to `Debug` > `Run without Debugging`
 
 This is the screenshot if it work correctly
