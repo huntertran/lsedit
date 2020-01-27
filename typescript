@@ -1,0 +1,3271 @@
+Script started on Thu Feb  7 12:46:45 2013
+]0;owlguest@lm-rdk-s2e-2:~/src/lsedit-7.4.2[owlguest@lm-rdk-s2e-2 lsedit-7.4.2]$ exit./c.sh
+----------
+1. WARNING in lsedit/AAClusterLayout.java (at line 704)
+	protected class CellRenderer extends JTextField implements TableCellRenderer {
+	                ^^^^^^^^^^^^
+The serializable class CellRenderer does not declare a static final serialVersionUID field of type long
+----------
+2. WARNING in lsedit/AAClusterLayout.java (at line 729)
+	class CellEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^
+The serializable class CellEditor does not declare a static final serialVersionUID field of type long
+----------
+3. WARNING in lsedit/AAClusterLayout.java (at line 761)
+	protected class MyTableModel extends AbstractTableModel {
+	                ^^^^^^^^^^^^
+The serializable class MyTableModel does not declare a static final serialVersionUID field of type long
+----------
+4. WARNING in lsedit/AAClusterLayout.java (at line 811)
+	protected class MyJTable extends JTable {
+	                ^^^^^^^^
+The serializable class MyJTable does not declare a static final serialVersionUID field of type long
+----------
+5. WARNING in lsedit/AAClusterLayout.java (at line 829)
+	class AAClusterConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class AAClusterConfigure does not declare a static final serialVersionUID field of type long
+----------
+----------
+6. WARNING in lsedit/ACDCClusterLayout.java (at line 343)
+	class ACDCClusterConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^^^
+The serializable class ACDCClusterConfigure does not declare a static final serialVersionUID field of type long
+----------
+----------
+7. WARNING in lsedit/Arrow.java (at line 8)
+	public class Arrow extends JComponent { 
+	             ^^^^^
+The serializable class Arrow does not declare a static final serialVersionUID field of type long
+----------
+----------
+8. WARNING in lsedit/AttributeBox.java (at line 21)
+	class ShowLabel extends JLabel
+	      ^^^^^^^^^
+The serializable class ShowLabel does not declare a static final serialVersionUID field of type long
+----------
+9. WARNING in lsedit/AttributeBox.java (at line 33)
+	class ShowAttributeColor extends ShowLabel {
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class ShowAttributeColor does not declare a static final serialVersionUID field of type long
+----------
+10. WARNING in lsedit/AttributeBox.java (at line 49)
+	class ShowImage extends ShowLabel {
+	      ^^^^^^^^^
+The serializable class ShowImage does not declare a static final serialVersionUID field of type long
+----------
+11. WARNING in lsedit/AttributeBox.java (at line 72)
+	class AttributeBoxPanel extends JPanel
+	      ^^^^^^^^^^^^^^^^^
+The serializable class AttributeBoxPanel does not declare a static final serialVersionUID field of type long
+----------
+12. WARNING in lsedit/AttributeBox.java (at line 154)
+	public final class AttributeBox extends JSplitPane implements ChangeListener
+	                   ^^^^^^^^^^^^
+The serializable class AttributeBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+13. WARNING in lsedit/BrowserLauncher.java (at line 136)
+	private static Object linkage;
+	                      ^^^^^^^
+The field BrowserLauncher.linkage is never read locally
+----------
+14. WARNING in lsedit/BrowserLauncher.java (at line 139)
+	private static final String JDirect_MacOSX = "/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/HIToolbox";
+	                            ^^^^^^^^^^^^^^
+The field BrowserLauncher.JDirect_MacOSX is never read locally
+----------
+----------
+15. WARNING in lsedit/BunchClusterLayout.java (at line 57)
+	class ListVector extends Vector {
+	      ^^^^^^^^^^
+The serializable class ListVector does not declare a static final serialVersionUID field of type long
+----------
+16. WARNING in lsedit/BunchClusterLayout.java (at line 195)
+	class MyListCellRenderer extends JLabel implements ListCellRenderer {
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class MyListCellRenderer does not declare a static final serialVersionUID field of type long
+----------
+17. WARNING in lsedit/BunchClusterLayout.java (at line 660)
+	class BunchClusterConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^^^^
+The serializable class BunchClusterConfigure does not declare a static final serialVersionUID field of type long
+----------
+18. WARNING in lsedit/BunchClusterLayout.java (at line 680)
+	class BasicTab extends JPanel implements ActionListener, DocumentListener {
+	      ^^^^^^^^
+The serializable class BasicTab does not declare a static final serialVersionUID field of type long
+----------
+19. WARNING in lsedit/BunchClusterLayout.java (at line 682)
+	class HillClimbingConfiguration extends JDialog implements ActionListener, ChangeListener {
+	      ^^^^^^^^^^^^^^^^^^^^^^^^^
+The serializable class HillClimbingConfiguration does not declare a static final serialVersionUID field of type long
+----------
+20. WARNING in lsedit/BunchClusterLayout.java (at line 853)
+	int		i, val;
+	   		   ^^^
+The local variable val is never read
+----------
+21. WARNING in lsedit/BunchClusterLayout.java (at line 854)
+	double	dval;
+	      	^^^^
+The local variable dval is never read
+----------
+22. WARNING in lsedit/BunchClusterLayout.java (at line 941)
+	class GeneticConfiguration extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^^^
+The serializable class GeneticConfiguration does not declare a static final serialVersionUID field of type long
+----------
+23. WARNING in lsedit/BunchClusterLayout.java (at line 1025)
+	int		i, val;
+	   		   ^^^
+The local variable val is never read
+----------
+24. WARNING in lsedit/BunchClusterLayout.java (at line 1293)
+	class WeightsTab extends JPanel {
+	      ^^^^^^^^^^
+The serializable class WeightsTab does not declare a static final serialVersionUID field of type long
+----------
+25. WARNING in lsedit/BunchClusterLayout.java (at line 1300)
+	class WeightedReln extends JPanel implements DocumentListener
+	      ^^^^^^^^^^^^
+The serializable class WeightedReln does not declare a static final serialVersionUID field of type long
+----------
+26. WARNING in lsedit/BunchClusterLayout.java (at line 1379)
+	int	val;
+	   	^^^
+The local variable val is never read
+----------
+27. WARNING in lsedit/BunchClusterLayout.java (at line 1473)
+	class OptionsTab extends Box implements ActionListener {
+	      ^^^^^^^^^^
+The serializable class OptionsTab does not declare a static final serialVersionUID field of type long
+----------
+28. WARNING in lsedit/BunchClusterLayout.java (at line 1842)
+	class LibrariesTab extends OmnipresentTab implements ActionListener {
+	      ^^^^^^^^^^^^
+The serializable class LibrariesTab does not declare a static final serialVersionUID field of type long
+----------
+29. WARNING in lsedit/BunchClusterLayout.java (at line 1985)
+	class ClientsTab extends OmnipresentTab implements ActionListener {
+	      ^^^^^^^^^^
+The serializable class ClientsTab does not declare a static final serialVersionUID field of type long
+----------
+30. WARNING in lsedit/BunchClusterLayout.java (at line 2186)
+	class SuppliersTab extends OmnipresentTab implements ActionListener {
+	      ^^^^^^^^^^^^
+The serializable class SuppliersTab does not declare a static final serialVersionUID field of type long
+----------
+31. WARNING in lsedit/BunchClusterLayout.java (at line 2386)
+	class BothTab extends OmnipresentTab implements ActionListener {
+	      ^^^^^^^
+The serializable class BothTab does not declare a static final serialVersionUID field of type long
+----------
+32. WARNING in lsedit/BunchClusterLayout.java (at line 2577)
+	class UserTab extends Box implements ActionListener {
+	      ^^^^^^^
+The serializable class UserTab does not declare a static final serialVersionUID field of type long
+----------
+----------
+33. WARNING in lsedit/Cardinal.java (at line 10)
+	class Cardinal extends JComponent {
+	      ^^^^^^^^
+The serializable class Cardinal does not declare a static final serialVersionUID field of type long
+----------
+----------
+34. WARNING in lsedit/ClassInherits.java (at line 22)
+	public class ClassInherits extends JDialog implements ActionListener { 
+	             ^^^^^^^^^^^^^
+The serializable class ClassInherits does not declare a static final serialVersionUID field of type long
+----------
+----------
+35. WARNING in lsedit/ClassUsage.java (at line 35)
+	class UsageLabel extends JLabel implements TableCellRenderer {
+	      ^^^^^^^^^^
+The serializable class UsageLabel does not declare a static final serialVersionUID field of type long
+----------
+36. WARNING in lsedit/ClassUsage.java (at line 49)
+	class UsageTableModel extends AbstractTableModel {
+	      ^^^^^^^^^^^^^^^
+The serializable class UsageTableModel does not declare a static final serialVersionUID field of type long
+----------
+37. WARNING in lsedit/ClassUsage.java (at line 97)
+	class UsageColumnModel extends DefaultTableColumnModel {
+	      ^^^^^^^^^^^^^^^^
+The serializable class UsageColumnModel does not declare a static final serialVersionUID field of type long
+----------
+38. WARNING in lsedit/ClassUsage.java (at line 154)
+	class UsageTable extends JTable implements TableModelListener {
+	      ^^^^^^^^^^
+The serializable class UsageTable does not declare a static final serialVersionUID field of type long
+----------
+39. WARNING in lsedit/ClassUsage.java (at line 174)
+	public class ClassUsage extends JDialog implements ActionListener, ItemListener { 
+	             ^^^^^^^^^^
+The serializable class ClassUsage does not declare a static final serialVersionUID field of type long
+----------
+----------
+40. WARNING in lsedit/ClientSet.java (at line 9)
+	public class ClientSet extends ClientSupplierSet
+	             ^^^^^^^^^
+The serializable class ClientSet does not declare a static final serialVersionUID field of type long
+----------
+----------
+41. WARNING in lsedit/ClipboardBox.java (at line 24)
+	public class ClipboardBox extends TabBox /* extends JComponent */ implements ChangeListener, ToolBarEventHandler, ClipboardListener, MouseListener
+	             ^^^^^^^^^^^^
+The serializable class ClipboardBox does not declare a static final serialVersionUID field of type long
+----------
+42. WARNING in lsedit/ClipboardBox.java (at line 26)
+	protected class ExpandedChkBox extends JCheckBox implements ItemListener
+	                ^^^^^^^^^^^^^^
+The serializable class ExpandedChkBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+43. WARNING in lsedit/Clipboard.java (at line 11)
+	public class Clipboard extends Vector
+	             ^^^^^^^^^
+The serializable class Clipboard does not declare a static final serialVersionUID field of type long
+----------
+----------
+44. WARNING in lsedit/ClosureConstraints.java (at line 22)
+	public class ClosureConstraints extends JDialog implements ActionListener { 
+	             ^^^^^^^^^^^^^^^^^^
+The serializable class ClosureConstraints does not declare a static final serialVersionUID field of type long
+----------
+----------
+45. WARNING in lsedit/ClusterInterface.java (at line 20)
+	import java.io.BufferedInputStream;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.io.BufferedInputStream is never used
+----------
+46. WARNING in lsedit/ClusterInterface.java (at line 267)
+	class ClusterInterfaceDialog extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^^^^^
+The serializable class ClusterInterfaceDialog does not declare a static final serialVersionUID field of type long
+----------
+----------
+47. WARNING in lsedit/ClusterLayout.java (at line 368)
+	class ClusterConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^
+The serializable class ClusterConfigure does not declare a static final serialVersionUID field of type long
+----------
+----------
+48. WARNING in lsedit/ClusterMetrics.java (at line 142)
+	public class ClusterMetrics extends JDialog implements ActionListener {
+	             ^^^^^^^^^^^^^^
+The serializable class ClusterMetrics does not declare a static final serialVersionUID field of type long
+----------
+----------
+49. WARNING in lsedit/ColorChooser.java (at line 23)
+	public class ColorChooser extends JDialog implements ActionListener {
+	             ^^^^^^^^^^^^
+The serializable class ColorChooser does not declare a static final serialVersionUID field of type long
+----------
+----------
+50. WARNING in lsedit/Diagram.java (at line 41)
+	class Zoom extends MyUndoableEdit implements UndoableEdit
+	      ^^^^
+The serializable class Zoom does not declare a static final serialVersionUID field of type long
+----------
+51. WARNING in lsedit/Diagram.java (at line 77)
+	class RelayoutSubtree extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^
+The serializable class RelayoutSubtree does not declare a static final serialVersionUID field of type long
+----------
+52. WARNING in lsedit/Diagram.java (at line 179)
+	class ExitFlag extends JComponent implements MouseListener
+	      ^^^^^^^^
+The serializable class ExitFlag does not declare a static final serialVersionUID field of type long
+----------
+53. WARNING in lsedit/Diagram.java (at line 266)
+	public final class Diagram extends TemporalTa /* extends UndoableTa extends Ta extends JPanel */ implements TaListener, MouseMotionListener  
+	                   ^^^^^^^
+The serializable class Diagram does not declare a static final serialVersionUID field of type long
+----------
+54. WARNING in lsedit/Diagram.java (at line 2196)
+	public class RelayoutDialog extends JDialog implements ActionListener {
+	             ^^^^^^^^^^^^^^
+The serializable class RelayoutDialog does not declare a static final serialVersionUID field of type long
+----------
+55. WARNING in lsedit/Diagram.java (at line 2209)
+	class LayoutTab extends JPanel implements ActionListener
+	      ^^^^^^^^^
+The serializable class LayoutTab does not declare a static final serialVersionUID field of type long
+----------
+56. WARNING in lsedit/Diagram.java (at line 2259)
+	class ClusterTab extends JPanel implements ActionListener
+	      ^^^^^^^^^^
+The serializable class ClusterTab does not declare a static final serialVersionUID field of type long
+----------
+57. WARNING in lsedit/Diagram.java (at line 2311)
+	class RelayoutAllTab extends JPanel implements ActionListener
+	      ^^^^^^^^^^^^^^
+The serializable class RelayoutAllTab does not declare a static final serialVersionUID field of type long
+----------
+----------
+58. WARNING in lsedit/Do.java (at line 9)
+	import javax.swing.JMenuBar;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JMenuBar is never used
+----------
+59. WARNING in lsedit/Do.java (at line 10)
+	import javax.swing.JMenuItem;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JMenuItem is never used
+----------
+60. WARNING in lsedit/Do.java (at line 25)
+	class MyCheckBoxMenuItem extends JCheckBoxMenuItem implements ActionListener
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class MyCheckBoxMenuItem does not declare a static final serialVersionUID field of type long
+----------
+61. WARNING in lsedit/Do.java (at line 359)
+	private static void setMyCheckBoxMenuItemState(AbstractButton m, boolean value)
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setMyCheckBoxMenuItemState(AbstractButton, boolean) from the type Do is never used locally
+----------
+----------
+62. WARNING in lsedit/EditableTa.java (at line 15)
+	public class EditableTa extends Ta 
+	             ^^^^^^^^^^
+The serializable class EditableTa does not declare a static final serialVersionUID field of type long
+----------
+63. WARNING in lsedit/EditableTa.java (at line 26)
+	private		Diagram			m_diagram;
+	       		       			^^^^^^^^^
+The field EditableTa.m_diagram is never read locally
+----------
+----------
+64. WARNING in lsedit/EditAttribute.java (at line 24)
+	import javax.swing.JPanel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JPanel is never used
+----------
+65. WARNING in lsedit/EditAttribute.java (at line 35)
+	public class EditAttribute extends JDialog implements ActionListener { //Class definition
+	             ^^^^^^^^^^^^^
+The serializable class EditAttribute does not declare a static final serialVersionUID field of type long
+----------
+66. WARNING in lsedit/EditAttribute.java (at line 39)
+	protected class AttributeTableModel extends AbstractTableModel {
+	                ^^^^^^^^^^^^^^^^^^^
+The serializable class AttributeTableModel does not declare a static final serialVersionUID field of type long
+----------
+67. WARNING in lsedit/EditAttribute.java (at line 108)
+	protected class MyJTable extends JTable {
+	                ^^^^^^^^
+The serializable class MyJTable does not declare a static final serialVersionUID field of type long
+----------
+68. WARNING in lsedit/EditAttribute.java (at line 110)
+	protected class ColorRenderer extends JLabel implements TableCellRenderer {
+	                ^^^^^^^^^^^^^
+The serializable class ColorRenderer does not declare a static final serialVersionUID field of type long
+----------
+69. WARNING in lsedit/EditAttribute.java (at line 152)
+	class ColorEditor extends DefaultCellEditor 
+	      ^^^^^^^^^^^
+The serializable class ColorEditor does not declare a static final serialVersionUID field of type long
+----------
+70. WARNING in lsedit/EditAttribute.java (at line 218)
+	protected class TextRenderer extends JTextField implements TableCellRenderer {
+	                ^^^^^^^^^^^^
+The serializable class TextRenderer does not declare a static final serialVersionUID field of type long
+----------
+71. WARNING in lsedit/EditAttribute.java (at line 234)
+	class TextEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^
+The serializable class TextEditor does not declare a static final serialVersionUID field of type long
+----------
+72. WARNING in lsedit/EditAttribute.java (at line 321)
+	class DoubleEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^^^
+The serializable class DoubleEditor does not declare a static final serialVersionUID field of type long
+----------
+73. WARNING in lsedit/EditAttribute.java (at line 374)
+	class IntegerEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^^^^
+The serializable class IntegerEditor does not declare a static final serialVersionUID field of type long
+----------
+74. WARNING in lsedit/EditAttribute.java (at line 429)
+	protected class StyleRenderer extends JTextField implements TableCellRenderer {
+	                ^^^^^^^^^^^^^
+The serializable class StyleRenderer does not declare a static final serialVersionUID field of type long
+----------
+75. WARNING in lsedit/EditAttribute.java (at line 453)
+	class StyleEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^^
+The serializable class StyleEditor does not declare a static final serialVersionUID field of type long
+----------
+76. WARNING in lsedit/EditAttribute.java (at line 516)
+	protected class ImageRenderer extends JComponent implements TableCellRenderer {
+	                ^^^^^^^^^^^^^
+The serializable class ImageRenderer does not declare a static final serialVersionUID field of type long
+----------
+77. WARNING in lsedit/EditAttribute.java (at line 551)
+	class ImageEditor extends DefaultCellEditor 
+	      ^^^^^^^^^^^
+The serializable class ImageEditor does not declare a static final serialVersionUID field of type long
+----------
+78. WARNING in lsedit/EditAttribute.java (at line 599)
+	protected class RelStyleRenderer extends JTextField implements TableCellRenderer {
+	                ^^^^^^^^^^^^^^^^
+The serializable class RelStyleRenderer does not declare a static final serialVersionUID field of type long
+----------
+79. WARNING in lsedit/EditAttribute.java (at line 623)
+	class RelStyleEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^^^^^
+The serializable class RelStyleEditor does not declare a static final serialVersionUID field of type long
+----------
+80. WARNING in lsedit/EditAttribute.java (at line 684)
+	class ParentEntityClassEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^^^^^^^^^^^^^^
+The serializable class ParentEntityClassEditor does not declare a static final serialVersionUID field of type long
+----------
+81. WARNING in lsedit/EditAttribute.java (at line 753)
+	class ParentRelationClassEditor extends DefaultCellEditor {
+	      ^^^^^^^^^^^^^^^^^^^^^^^^^
+The serializable class ParentRelationClassEditor does not declare a static final serialVersionUID field of type long
+----------
+82. WARNING in lsedit/EditAttribute.java (at line 980)
+	private MyJTable	m_table;
+	                	^^^^^^^
+The field EditAttribute.m_table is never read locally
+----------
+----------
+83. WARNING in lsedit/EditConstraints.java (at line 23)
+	public class EditConstraints extends JDialog implements ActionListener { 
+	             ^^^^^^^^^^^^^^^
+The serializable class EditConstraints does not declare a static final serialVersionUID field of type long
+----------
+----------
+84. WARNING in lsedit/EditElisions.java (at line 12)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+85. WARNING in lsedit/EditElisions.java (at line 32)
+	class ElisionTableModel extends AbstractTableModel {
+	      ^^^^^^^^^^^^^^^^^
+The serializable class ElisionTableModel does not declare a static final serialVersionUID field of type long
+----------
+86. WARNING in lsedit/EditElisions.java (at line 43)
+	LandscapeEditorCore		ls    = diagram.getLs();
+	                   		^^
+The local variable ls is never read
+----------
+87. WARNING in lsedit/EditElisions.java (at line 251)
+	class ElisionEditor extends DefaultCellEditor implements ActionListener 
+	      ^^^^^^^^^^^^^
+The serializable class ElisionEditor does not declare a static final serialVersionUID field of type long
+----------
+88. WARNING in lsedit/EditElisions.java (at line 317)
+	class ElisionTable extends JTable {
+	      ^^^^^^^^^^^^
+The serializable class ElisionTable does not declare a static final serialVersionUID field of type long
+----------
+89. WARNING in lsedit/EditElisions.java (at line 347)
+	public class EditElisions extends JDialog implements ActionListener { 
+	             ^^^^^^^^^^^^
+The serializable class EditElisions does not declare a static final serialVersionUID field of type long
+----------
+90. WARNING in lsedit/EditElisions.java (at line 351)
+	private ElisionTable		m_table;
+	                    		^^^^^^^
+The field EditElisions.m_table is never read locally
+----------
+----------
+91. WARNING in lsedit/EditModeHandler.java (at line 36)
+	JMenu	   m1;
+	     	   ^^
+The local variable m1 is never read
+----------
+92. WARNING in lsedit/EditModeHandler.java (at line 46)
+	JMenu	   m1;
+	     	   ^^
+The local variable m1 is never read
+----------
+----------
+93. WARNING in lsedit/Elision_c_Button.java (at line 11)
+	public class Elision_c_Button extends ToolBarButton implements Icon
+	             ^^^^^^^^^^^^^^^^
+The serializable class Elision_c_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+94. WARNING in lsedit/ElisionChooser.java (at line 20)
+	class ElisionChooser extends JDialog implements ItemListener, ActionListener
+	      ^^^^^^^^^^^^^^
+The serializable class ElisionChooser does not declare a static final serialVersionUID field of type long
+----------
+----------
+95. WARNING in lsedit/Elision_CS_Button.java (at line 11)
+	public class Elision_CS_Button extends ToolBarButton implements Icon
+	             ^^^^^^^^^^^^^^^^^
+The serializable class Elision_CS_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+96. WARNING in lsedit/Elision_CU_Button.java (at line 11)
+	public class Elision_CU_Button extends ToolBarButton implements Icon 
+	             ^^^^^^^^^^^^^^^^^
+The serializable class Elision_CU_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+97. WARNING in lsedit/Elision_I_Button.java (at line 11)
+	public class Elision_I_Button extends ToolBarButton implements Icon
+	             ^^^^^^^^^^^^^^^^
+The serializable class Elision_I_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+98. WARNING in lsedit/Elision_s_Button.java (at line 10)
+	public class Elision_s_Button extends ToolBarButton implements Icon
+	             ^^^^^^^^^^^^^^^^
+The serializable class Elision_s_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+99. WARNING in lsedit/Elision_u_Button.java (at line 10)
+	public class Elision_u_Button extends ToolBarButton implements Icon
+	             ^^^^^^^^^^^^^^^^
+The serializable class Elision_u_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+100. WARNING in lsedit/EntityCache.java (at line 106)
+	EntityInstance	e1;
+	              	^^
+The local variable e1 is never read
+----------
+----------
+101. WARNING in lsedit/EntityClass.java (at line 3)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+102. WARNING in lsedit/EntityClass.java (at line 7)
+	import java.io.File;
+	       ^^^^^^^^^^^^
+The import java.io.File is never used
+----------
+103. WARNING in lsedit/EntityClass.java (at line 489)
+	Enumeration		en;
+	           		^^
+The local variable en is never read
+----------
+104. WARNING in lsedit/EntityClass.java (at line 494)
+	int				i, j, size;
+	   				      ^^^^
+The local variable size is never read
+----------
+----------
+105. WARNING in lsedit/EntityComponent.java (at line 25)
+	public class EntityComponent extends JComponent implements PaintShapeHelper, Icon {
+	             ^^^^^^^^^^^^^^^
+The serializable class EntityComponent does not declare a static final serialVersionUID field of type long
+----------
+106. WARNING in lsedit/EntityComponent.java (at line 153)
+	int		x                      = 0;
+	   		^
+The local variable x is never read
+----------
+107. WARNING in lsedit/EntityComponent.java (at line 154)
+	int		y                      = 0;
+	   		^
+The local variable y is never read
+----------
+108. WARNING in lsedit/EntityComponent.java (at line 158)
+	int		offset				   = 0;
+	   		^^^^^^
+The local variable offset is never read
+----------
+109. WARNING in lsedit/EntityComponent.java (at line 161)
+	boolean center;
+	        ^^^^^^
+The local variable center is never read
+----------
+110. WARNING in lsedit/EntityComponent.java (at line 221)
+	LandscapeEditorCore ls      = diagram.getLs();
+	                    ^^
+The local variable ls is never read
+----------
+111. WARNING in lsedit/EntityComponent.java (at line 256)
+	int x1, y1;
+	    ^^
+The local variable x1 is never read
+----------
+112. WARNING in lsedit/EntityComponent.java (at line 256)
+	int x1, y1;
+	        ^^
+The local variable y1 is never read
+----------
+113. WARNING in lsedit/EntityComponent.java (at line 438)
+	private static int[] getXp()
+	                     ^^^^^^^
+The method getXp() from the type EntityComponent is never used locally
+----------
+114. WARNING in lsedit/EntityComponent.java (at line 446)
+	private static int[] getYp()
+	                     ^^^^^^^
+The method getYp() from the type EntityComponent is never used locally
+----------
+115. WARNING in lsedit/EntityComponent.java (at line 799)
+	EntityInstance	e;
+	              	^
+The local variable e is never read
+----------
+116. WARNING in lsedit/EntityComponent.java (at line 975)
+	int				i, j, k;
+	   				      ^
+The local variable k is never read
+----------
+117. WARNING in lsedit/EntityComponent.java (at line 1918)
+	EntityClass		ec       = e.getEntityClass();
+	           		^^
+The local variable ec is never read
+----------
+----------
+118. WARNING in lsedit/EntityInstance.java (at line 5)
+	import java.util.Hashtable;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Hashtable is never used
+----------
+119. WARNING in lsedit/EntityInstance.java (at line 14)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+120. WARNING in lsedit/EntityInstance.java (at line 25)
+	import javax.swing.JFrame;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JFrame is never used
+----------
+121. WARNING in lsedit/EntityInstance.java (at line 26)
+	import javax.swing.JOptionPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JOptionPane is never used
+----------
+122. WARNING in lsedit/EntityInstance.java (at line 247)
+	private final static double TAB_HEIGHT = 16.0; 
+	                            ^^^^^^^^^^
+The field EntityInstance.TAB_HEIGHT is never read locally
+----------
+123. WARNING in lsedit/EntityInstance.java (at line 249)
+	private final static int MOUSE_NEAR_EDGE_THRESHOLD = 4;
+	                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+The field EntityInstance.MOUSE_NEAR_EDGE_THRESHOLD is never read locally
+----------
+124. WARNING in lsedit/EntityInstance.java (at line 255)
+	private final static int MIN_HEIGHT = 10;
+	                         ^^^^^^^^^^
+The field EntityInstance.MIN_HEIGHT is never read locally
+----------
+125. WARNING in lsedit/EntityInstance.java (at line 256)
+	private final static int MIN_WIDTH = 30;
+	                         ^^^^^^^^^
+The field EntityInstance.MIN_WIDTH is never read locally
+----------
+126. WARNING in lsedit/EntityInstance.java (at line 923)
+	RelationClass		rc;
+	             		^^
+The local variable rc is never read
+----------
+127. WARNING in lsedit/EntityInstance.java (at line 924)
+	int					cindex;
+	   					^^^^^^
+The local variable cindex is never read
+----------
+128. WARNING in lsedit/EntityInstance.java (at line 2198)
+	RelationInstance ri;
+	                 ^^
+The local variable ri is never read
+----------
+129. WARNING in lsedit/EntityInstance.java (at line 2199)
+	JComponent	relationComponent;
+	          	^^^^^^^^^^^^^^^^^
+The local variable relationComponent is never read
+----------
+130. WARNING in lsedit/EntityInstance.java (at line 2474)
+	Enumeration en;
+	            ^^
+The local variable en is never read
+----------
+131. WARNING in lsedit/EntityInstance.java (at line 2626)
+	BitSet elisions = needElisions();
+	       ^^^^^^^^
+The local variable elisions is never read
+----------
+132. WARNING in lsedit/EntityInstance.java (at line 2649)
+	BitSet	elisions = m_elisions;
+	      	^^^^^^^^
+The local variable elisions is never read
+----------
+133. WARNING in lsedit/EntityInstance.java (at line 2856)
+	EntityComponent		childComponent;
+	               		^^^^^^^^^^^^^^
+The local variable childComponent is never read
+----------
+134. WARNING in lsedit/EntityInstance.java (at line 2932)
+	int					new_width, new_height;
+	   					^^^^^^^^^
+The local variable new_width is never read
+----------
+135. WARNING in lsedit/EntityInstance.java (at line 2932)
+	int					new_width, new_height;
+	   					           ^^^^^^^^^^
+The local variable new_height is never read
+----------
+136. WARNING in lsedit/EntityInstance.java (at line 3388)
+	EntityInstance		e;
+	              		^
+The local variable e is never read
+----------
+137. WARNING in lsedit/EntityInstance.java (at line 3895)
+	int	numRelClasses;
+	   	^^^^^^^^^^^^^
+The local variable numRelClasses is never read
+----------
+138. WARNING in lsedit/EntityInstance.java (at line 4680)
+	int				phase, i, j, size;
+	   				          ^
+The local variable j is never read
+----------
+139. WARNING in lsedit/EntityInstance.java (at line 4681)
+	Attribute		attribute, attribute1;
+	         		^^^^^^^^^
+The local variable attribute is never read
+----------
+140. WARNING in lsedit/EntityInstance.java (at line 4681)
+	Attribute		attribute, attribute1;
+	         		           ^^^^^^^^^^
+The local variable attribute1 is never read
+----------
+141. WARNING in lsedit/EntityInstance.java (at line 4682)
+	boolean			seen;
+	       			^^^^
+The local variable seen is never read
+----------
+142. WARNING in lsedit/EntityInstance.java (at line 4855)
+	EntityClass			ec;
+	           			^^
+The local variable ec is never read
+----------
+----------
+143. WARNING in lsedit/ERBox.java (at line 6)
+	import java.awt.BorderLayout;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.BorderLayout is never used
+----------
+144. WARNING in lsedit/ERBox.java (at line 9)
+	import java.awt.Container;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Container is never used
+----------
+145. WARNING in lsedit/ERBox.java (at line 22)
+	import javax.swing.JButton;
+	       ^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JButton is never used
+----------
+146. WARNING in lsedit/ERBox.java (at line 24)
+	import javax.swing.JComboBox;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComboBox is never used
+----------
+147. WARNING in lsedit/ERBox.java (at line 26)
+	import javax.swing.JDialog;
+	       ^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JDialog is never used
+----------
+148. WARNING in lsedit/ERBox.java (at line 30)
+	import javax.swing.JPanel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JPanel is never used
+----------
+149. WARNING in lsedit/ERBox.java (at line 254)
+	class ShownEntityChkBox extends JComponent implements ItemListener, MouseListener
+	      ^^^^^^^^^^^^^^^^^
+The serializable class ShownEntityChkBox does not declare a static final serialVersionUID field of type long
+----------
+150. WARNING in lsedit/ERBox.java (at line 277)
+	Dimension		d;
+	         		^
+The local variable d is never read
+----------
+151. WARNING in lsedit/ERBox.java (at line 424)
+	mi = new JMenuItem(erBox.g_editInheritanceRules_text);
+	                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static field ERBox.g_editInheritanceRules_text should be accessed in a static way
+----------
+152. WARNING in lsedit/ERBox.java (at line 428)
+	mi = new JMenuItem(erBox.g_editClassAttributes_text);
+	                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static field ERBox.g_editClassAttributes_text should be accessed in a static way
+----------
+153. WARNING in lsedit/ERBox.java (at line 432)
+	mi = new JMenuItem(erBox.g_editElisionRules_text);
+	                         ^^^^^^^^^^^^^^^^^^^^^^^
+The static field ERBox.g_editElisionRules_text should be accessed in a static way
+----------
+154. WARNING in lsedit/ERBox.java (at line 440)
+	mi = new JMenuItem(erBox.g_showValidAttributes_text);
+	                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static field ERBox.g_showValidAttributes_text should be accessed in a static way
+----------
+155. WARNING in lsedit/ERBox.java (at line 444)
+	mi = new JMenuItem(erBox.g_validateAttributes_text);
+	                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+The static field ERBox.g_validateAttributes_text should be accessed in a static way
+----------
+156. WARNING in lsedit/ERBox.java (at line 448)
+	mi = new JMenuItem(erBox.g_createEntitiesOfThisClass_text);
+	                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static field ERBox.g_createEntitiesOfThisClass_text should be accessed in a static way
+----------
+157. WARNING in lsedit/ERBox.java (at line 762)
+	class ShownRelnChkBox extends JComponent implements ItemListener, MouseListener
+	      ^^^^^^^^^^^^^^^
+The serializable class ShownRelnChkBox does not declare a static final serialVersionUID field of type long
+----------
+158. WARNING in lsedit/ERBox.java (at line 1077)
+	public class ERBox extends TabBox /* extends JComponent */ implements ChangeListener, TaListener, MouseListener 
+	             ^^^^^
+The serializable class ERBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+159. WARNING in lsedit/ExecuteAction.java (at line 4)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+160. WARNING in lsedit/ExecuteAction.java (at line 6)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+161. WARNING in lsedit/ExecuteAction.java (at line 7)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+162. WARNING in lsedit/ExecuteAction.java (at line 8)
+	import java.awt.Event;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Event is never used
+----------
+163. WARNING in lsedit/ExecuteAction.java (at line 11)
+	import java.awt.Graphics;
+	       ^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics is never used
+----------
+164. WARNING in lsedit/ExecuteAction.java (at line 12)
+	import java.awt.event.ItemEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ItemEvent is never used
+----------
+165. WARNING in lsedit/ExecuteAction.java (at line 13)
+	import java.awt.event.ItemListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ItemListener is never used
+----------
+166. WARNING in lsedit/ExecuteAction.java (at line 14)
+	import java.awt.event.KeyEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.KeyEvent is never used
+----------
+167. WARNING in lsedit/ExecuteAction.java (at line 20)
+	import java.io.FileReader;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.io.FileReader is never used
+----------
+168. WARNING in lsedit/ExecuteAction.java (at line 21)
+	import java.io.BufferedReader;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import java.io.BufferedReader is never used
+----------
+169. WARNING in lsedit/ExecuteAction.java (at line 29)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+170. WARNING in lsedit/ExecuteAction.java (at line 32)
+	import javax.swing.filechooser.FileFilter;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.filechooser.FileFilter is never used
+----------
+171. WARNING in lsedit/ExecuteAction.java (at line 33)
+	import javax.swing.JFrame;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JFrame is never used
+----------
+172. WARNING in lsedit/ExecuteAction.java (at line 37)
+	import javax.swing.JScrollBar;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JScrollBar is never used
+----------
+173. WARNING in lsedit/ExecuteAction.java (at line 40)
+	import javax.swing.JViewport;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JViewport is never used
+----------
+174. WARNING in lsedit/ExecuteAction.java (at line 144)
+	class ExecuteExamples extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^
+The serializable class ExecuteExamples does not declare a static final serialVersionUID field of type long
+----------
+175. WARNING in lsedit/ExecuteAction.java (at line 344)
+	class ExecuteConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^
+The serializable class ExecuteConfigure does not declare a static final serialVersionUID field of type long
+----------
+176. WARNING in lsedit/ExecuteAction.java (at line 418)
+	File	defaultfile, startfile, file;
+	    	             ^^^^^^^^^
+The local variable startfile is never read
+----------
+177. WARNING in lsedit/ExecuteAction.java (at line 501)
+	int		i;
+	   		^
+The local variable i is never read
+----------
+178. WARNING in lsedit/ExecuteAction.java (at line 529)
+	String[]			programs;
+	        			^^^^^^^^
+The local variable programs is never read
+----------
+179. WARNING in lsedit/ExecuteAction.java (at line 530)
+	String				program;
+	      				^^^^^^^
+The local variable program is never read
+----------
+180. WARNING in lsedit/ExecuteAction.java (at line 533)
+	String				command, title;
+	      				^^^^^^^
+The local variable command is never read
+----------
+181. WARNING in lsedit/ExecuteAction.java (at line 699)
+	String	tag, rules;
+	      	     ^^^^^
+The local variable rules is never read
+----------
+182. WARNING in lsedit/ExecuteAction.java (at line 722)
+	String	string, string1, rules;
+	      	        ^^^^^^^
+The local variable string1 is never read
+----------
+183. WARNING in lsedit/ExecuteAction.java (at line 930)
+	int		i, j, k;
+	   		      ^
+The local variable k is never read
+----------
+184. WARNING in lsedit/ExecuteAction.java (at line 987)
+	int		cnt = 0;
+	   		^^^
+The local variable cnt is never read
+----------
+----------
+185. WARNING in lsedit/ExpandLayout.java (at line 3)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+186. WARNING in lsedit/ExpandLayout.java (at line 11)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+187. WARNING in lsedit/ExpandLayout.java (at line 14)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+188. WARNING in lsedit/ExpandLayout.java (at line 18)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+189. WARNING in lsedit/ExpandLayout.java (at line 24)
+	import java.awt.event.MouseEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.MouseEvent is never used
+----------
+190. WARNING in lsedit/ExpandLayout.java (at line 25)
+	import java.awt.event.MouseListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.MouseListener is never used
+----------
+191. WARNING in lsedit/ExpandLayout.java (at line 263)
+	class ExpandConfigure extends JDialog implements ActionListener, ItemListener {
+	      ^^^^^^^^^^^^^^^
+The serializable class ExpandConfigure does not declare a static final serialVersionUID field of type long
+----------
+192. WARNING in lsedit/ExpandLayout.java (at line 265)
+	class ExpandImage extends JComponent
+	      ^^^^^^^^^^^
+The serializable class ExpandImage does not declare a static final serialVersionUID field of type long
+----------
+193. WARNING in lsedit/ExpandLayout.java (at line 272)
+	int			i;
+	   			^
+The local variable i is never read
+----------
+194. WARNING in lsedit/ExpandLayout.java (at line 289)
+	int	dimension, w, h;
+	   	^^^^^^^^^
+The local variable dimension is never read
+----------
+----------
+195. WARNING in lsedit/Feedback.java (at line 4)
+	import java.awt.Font;
+	       ^^^^^^^^^^^^^
+The import java.awt.Font is never used
+----------
+196. WARNING in lsedit/Feedback.java (at line 8)
+	public class Feedback extends JTextField {
+	             ^^^^^^^^
+The serializable class Feedback does not declare a static final serialVersionUID field of type long
+----------
+----------
+197. WARNING in lsedit/FindBox.java (at line 17)
+	import java.awt.event.ItemEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ItemEvent is never used
+----------
+198. WARNING in lsedit/FindBox.java (at line 18)
+	import java.awt.event.ItemListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ItemListener is never used
+----------
+199. WARNING in lsedit/FindBox.java (at line 33)
+	public class FindBox extends JDialog implements ActionListener
+	             ^^^^^^^
+The serializable class FindBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+200. WARNING in lsedit/Find_Button.java (at line 11)
+	public class Find_Button extends ToolBarButton
+	             ^^^^^^^^^^^
+The serializable class Find_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+201. WARNING in lsedit/Find.java (at line 6)
+	import java.util.regex.Pattern;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import java.util.regex.Pattern is never used
+----------
+----------
+202. WARNING in lsedit/FindNext_Button.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+203. WARNING in lsedit/FindNext_Button.java (at line 9)
+	public class FindNext_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^^
+The serializable class FindNext_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+204. WARNING in lsedit/FindPrev_Button.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+205. WARNING in lsedit/FindPrev_Button.java (at line 9)
+	public class FindPrev_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^^
+The serializable class FindPrev_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+206. WARNING in lsedit/FontBiggerButton.java (at line 8)
+	public class FontBiggerButton extends ToolBarButton
+	             ^^^^^^^^^^^^^^^^
+The serializable class FontBiggerButton does not declare a static final serialVersionUID field of type long
+----------
+----------
+207. WARNING in lsedit/FontCache.java (at line 6)
+	import javax.swing.JTabbedPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JTabbedPane is never used
+----------
+----------
+208. WARNING in lsedit/FontChooser.java (at line 13)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+209. WARNING in lsedit/FontChooser.java (at line 15)
+	import java.awt.Graphics2D;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics2D is never used
+----------
+210. WARNING in lsedit/FontChooser.java (at line 37)
+	public class FontChooser extends JDialog implements ItemListener, ActionListener {
+	             ^^^^^^^^^^^
+The serializable class FontChooser does not declare a static final serialVersionUID field of type long
+----------
+211. WARNING in lsedit/FontChooser.java (at line 39)
+	class FontPanel extends JPanel {
+	      ^^^^^^^^^
+The serializable class FontPanel does not declare a static final serialVersionUID field of type long
+----------
+----------
+212. WARNING in lsedit/FontSmallerButton.java (at line 7)
+	public class FontSmallerButton extends ToolBarButton
+	             ^^^^^^^^^^^^^^^^^
+The serializable class FontSmallerButton does not declare a static final serialVersionUID field of type long
+----------
+----------
+213. WARNING in lsedit/FrameModeHandler.java (at line 17)
+	class HorizontalLine extends JComponent
+	      ^^^^^^^^^^^^^^
+The serializable class HorizontalLine does not declare a static final serialVersionUID field of type long
+----------
+214. WARNING in lsedit/FrameModeHandler.java (at line 30)
+	class VerticalLine extends JComponent
+	      ^^^^^^^^^^^^
+The serializable class VerticalLine does not declare a static final serialVersionUID field of type long
+----------
+----------
+215. WARNING in lsedit/Graph.java (at line 14)
+	private int numLayers;			// number of layers
+	            ^^^^^^^^^
+The field Graph.numLayers is never read locally
+----------
+----------
+216. WARNING in lsedit/GroupModeHandler.java (at line 6)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+217. WARNING in lsedit/GroupModeHandler.java (at line 8)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+218. WARNING in lsedit/GroupModeHandler.java (at line 24)
+	protected class DrawOutline extends JComponent
+	                ^^^^^^^^^^^
+The serializable class DrawOutline does not declare a static final serialVersionUID field of type long
+----------
+219. WARNING in lsedit/GroupModeHandler.java (at line 86)
+	int				grid           = diagram.getHardGrid();
+	   				^^^^
+The local variable grid is never read
+----------
+220. WARNING in lsedit/GroupModeHandler.java (at line 86)
+	int				grid           = diagram.getHardGrid();
+	   				                 ^^^^^^^^^^^^^^^^^^^^^
+The static method getHardGrid() from the type Diagram should be accessed in a static way
+----------
+221. WARNING in lsedit/GroupModeHandler.java (at line 287)
+	int				grid			= diagram.getHardGrid();
+	   				    			  ^^^^^^^^^^^^^^^^^^^^^
+The static method getHardGrid() from the type Diagram should be accessed in a static way
+----------
+222. WARNING in lsedit/GroupModeHandler.java (at line 420)
+	int		grid    = diagram.getHardGrid();
+	   		          ^^^^^^^^^^^^^^^^^^^^^
+The static method getHardGrid() from the type Diagram should be accessed in a static way
+----------
+223. WARNING in lsedit/GroupModeHandler.java (at line 475)
+	Diagram diagram = m_ls.getDiagram();
+	        ^^^^^^^
+The local variable diagram is never read
+----------
+----------
+224. WARNING in lsedit/HiChildren.java (at line 193)
+	int			id1, id2, temp, depth;
+	   			          ^^^^
+The local variable temp is never read
+----------
+225. WARNING in lsedit/HiChildren.java (at line 239)
+	private static void dumpMatrix(HiGraph queue[], int matrices[][][]) 
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method dumpMatrix(HiGraph[], int[][][]) from the type HiChildren is never used locally
+----------
+226. WARNING in lsedit/HiChildren.java (at line 241)
+	HiGraph		node;
+	       		^^^^
+The local variable node is never read
+----------
+227. WARNING in lsedit/HiChildren.java (at line 243)
+	int			i, j, k, last, last_depth;
+	   			         ^^^^
+The local variable last is never read
+----------
+228. WARNING in lsedit/HiChildren.java (at line 243)
+	int			i, j, k, last, last_depth;
+	   			               ^^^^^^^^^^
+The local variable last_depth is never read
+----------
+229. WARNING in lsedit/HiChildren.java (at line 265)
+	HiGraph	node, next;
+	       	      ^^^^
+The local variable next is never read
+----------
+230. WARNING in lsedit/HiChildren.java (at line 307)
+	HiGraph	node, node1, child, child1, parent, parent1;
+	       	                            ^^^^^^
+The local variable parent is never read
+----------
+231. WARNING in lsedit/HiChildren.java (at line 313)
+	int		i, j, tail, edges, depth;
+	   		   ^
+The local variable j is never read
+----------
+232. WARNING in lsedit/HiChildren.java (at line 313)
+	int		i, j, tail, edges, depth;
+	   		      ^^^^
+The local variable tail is never read
+----------
+----------
+233. WARNING in lsedit/HiGraphCoordinates.java (at line 43)
+	private static void postorder(HiGraph node, int min) 
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method postorder(HiGraph, int) from the type HiGraphCoordinates is never used locally
+----------
+234. WARNING in lsedit/HiGraphCoordinates.java (at line 62)
+	int			outside_bias  = options.outside_bias();
+	   			                ^^^^^^^^^^^^^^^^^^^^^^
+The static method outside_bias() from the type SimplexLayout should be accessed in a static way
+----------
+235. WARNING in lsedit/HiGraphCoordinates.java (at line 63)
+	int			weight_1dummy = options.weight_1dummy();
+	   			                ^^^^^^^^^^^^^^^^^^^^^^^
+The static method weight_1dummy() from the type SimplexLayout should be accessed in a static way
+----------
+236. WARNING in lsedit/HiGraphCoordinates.java (at line 64)
+	int			weight_2dummy = options.weight_2dummy();
+	   			                ^^^^^^^^^^^^^^^^^^^^^^^
+The static method weight_2dummy() from the type SimplexLayout should be accessed in a static way
+----------
+237. WARNING in lsedit/HiGraphCoordinates.java (at line 65)
+	boolean		hasBends      = options.hasBends();
+	       		                ^^^^^^^^^^^^^^^^^^
+The static method hasBends() from the type SimplexLayout should be accessed in a static way
+----------
+238. WARNING in lsedit/HiGraphCoordinates.java (at line 70)
+	xgap = options.xgap();
+	       ^^^^^^^^^^^^^^
+The static method xgap() from the type SimplexLayout should be accessed in a static way
+----------
+239. WARNING in lsedit/HiGraphCoordinates.java (at line 365)
+	int			xgap = options.xgap();
+	   			       ^^^^^^^^^^^^^^
+The static method xgap() from the type SimplexLayout should be accessed in a static way
+----------
+240. WARNING in lsedit/HiGraphCoordinates.java (at line 414)
+	HiSimplex.simplex(aux, options.simplex());
+	                       ^^^^^^^^^^^^^^^^^
+The static method simplex() from the type SimplexLayout should be accessed in a static way
+----------
+241. WARNING in lsedit/HiGraphCoordinates.java (at line 477)
+	Enumeration e;
+	            ^
+The local variable e is never read
+----------
+242. WARNING in lsedit/HiGraphCoordinates.java (at line 517)
+	int			ygap        = options.ygap();
+	   			              ^^^^^^^^^^^^^^
+The static method ygap() from the type SimplexLayout should be accessed in a static way
+----------
+243. WARNING in lsedit/HiGraphCoordinates.java (at line 911)
+	global_xlayout(root, options.xmargin() - (root.m_x - root.m_width / 2) );
+	                     ^^^^^^^^^^^^^^^^^
+The static method xmargin() from the type SimplexLayout should be accessed in a static way
+----------
+244. WARNING in lsedit/HiGraphCoordinates.java (at line 912)
+	global_ylayout(root, options.ymargin() - (root.m_y - root.m_height/2) );
+	                     ^^^^^^^^^^^^^^^^^
+The static method ymargin() from the type SimplexLayout should be accessed in a static way
+----------
+----------
+245. WARNING in lsedit/HiGraphException.java (at line 8)
+	public class HiGraphException extends Exception {
+	             ^^^^^^^^^^^^^^^^
+The serializable class HiGraphException does not declare a static final serialVersionUID field of type long
+----------
+----------
+246. WARNING in lsedit/HiGraph.java (at line 4)
+	import java.awt.Point;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Point is never used
+----------
+247. WARNING in lsedit/HiGraph.java (at line 5)
+	import java.awt.Graphics;
+	       ^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics is never used
+----------
+248. WARNING in lsedit/HiGraph.java (at line 6)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+249. WARNING in lsedit/HiGraph.java (at line 7)
+	import java.awt.TextArea;
+	       ^^^^^^^^^^^^^^^^^
+The import java.awt.TextArea is never used
+----------
+250. WARNING in lsedit/HiGraph.java (at line 447)
+	HiGraph	child, from, to;
+	       	             ^^
+The local variable to is never read
+----------
+----------
+251. WARNING in lsedit/HiGroup.java (at line 3)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+----------
+252. WARNING in lsedit/HiRank.java (at line 57)
+	HiGraph		child, sink, parent1;
+	       		             ^^^^^^^
+The local variable parent1 is never read
+----------
+253. WARNING in lsedit/HiRank.java (at line 119)
+	private static void balance(HiGraph node, int local[]) throws HiGraphException {
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method balance(HiGraph, int[]) from the type HiRank is never used locally
+----------
+----------
+254. WARNING in lsedit/HiRow.java (at line 306)
+	HiGraph			row[], row1[];
+	       			       ^^^^
+The local variable row1 is never read
+----------
+255. WARNING in lsedit/HiRow.java (at line 309)
+	int				i, j, i1, j1, rank, position;
+	   				      ^^
+The local variable i1 is never read
+----------
+256. WARNING in lsedit/HiRow.java (at line 398)
+	int		cycles         = options.crossing();
+	   		                 ^^^^^^^^^^^^^^^^^^
+The static method crossing() from the type SimplexLayout should be accessed in a static way
+----------
+257. WARNING in lsedit/HiRow.java (at line 400)
+	boolean	improved, changed;
+	       	          ^^^^^^^
+The local variable changed is never read
+----------
+258. WARNING in lsedit/HiRow.java (at line 437)
+	rc = options.getDesignatedClass();
+	     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method getDesignatedClass() from the type SimplexLayout should be accessed in a static way
+----------
+----------
+259. WARNING in lsedit/HiSimplex.java (at line 97)
+	private static void dumpspantree(HiGraph node) {
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method dumpspantree(HiGraph) from the type HiSimplex is never used locally
+----------
+260. WARNING in lsedit/HiSimplex.java (at line 517)
+	int		slack;
+	   		^^^^^
+The local variable slack is never read
+----------
+261. WARNING in lsedit/HiSimplex.java (at line 653)
+	int			head, i, slack;
+	   			      ^
+The local variable i is never read
+----------
+262. WARNING in lsedit/HiSimplex.java (at line 829)
+	Enumeration e;
+	            ^
+The local variable e is never read
+----------
+----------
+263. WARNING in lsedit/HistoryBox.java (at line 3)
+	import java.awt.BorderLayout;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.BorderLayout is never used
+----------
+264. WARNING in lsedit/HistoryBox.java (at line 5)
+	import java.awt.Component;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Component is never used
+----------
+265. WARNING in lsedit/HistoryBox.java (at line 6)
+	import java.awt.Container;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Container is never used
+----------
+266. WARNING in lsedit/HistoryBox.java (at line 8)
+	import java.awt.FlowLayout;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.FlowLayout is never used
+----------
+267. WARNING in lsedit/HistoryBox.java (at line 12)
+	import java.awt.GridLayout;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.GridLayout is never used
+----------
+268. WARNING in lsedit/HistoryBox.java (at line 13)
+	import java.awt.event.ActionEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ActionEvent is never used
+----------
+269. WARNING in lsedit/HistoryBox.java (at line 14)
+	import java.awt.event.ActionListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ActionListener is never used
+----------
+270. WARNING in lsedit/HistoryBox.java (at line 21)
+	import javax.swing.JButton;
+	       ^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JButton is never used
+----------
+271. WARNING in lsedit/HistoryBox.java (at line 22)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+272. WARNING in lsedit/HistoryBox.java (at line 23)
+	import javax.swing.JDialog;
+	       ^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JDialog is never used
+----------
+273. WARNING in lsedit/HistoryBox.java (at line 24)
+	import javax.swing.JFrame;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JFrame is never used
+----------
+274. WARNING in lsedit/HistoryBox.java (at line 25)
+	import javax.swing.JLabel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JLabel is never used
+----------
+275. WARNING in lsedit/HistoryBox.java (at line 27)
+	import javax.swing.JPanel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JPanel is never used
+----------
+276. WARNING in lsedit/HistoryBox.java (at line 29)
+	import javax.swing.JScrollPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JScrollPane is never used
+----------
+277. WARNING in lsedit/HistoryBox.java (at line 31)
+	import javax.swing.JTextField;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JTextField is never used
+----------
+278. WARNING in lsedit/HistoryBox.java (at line 36)
+	public final class HistoryBox extends TabBox /* extends JComponent */ implements ChangeListener, TaListener, ToolBarEventHandler, MouseListener, MouseMotionListener
+	                   ^^^^^^^^^^
+The serializable class HistoryBox does not declare a static final serialVersionUID field of type long
+----------
+279. WARNING in lsedit/HistoryBox.java (at line 100)
+	Enumeration		en;
+	           		^^
+The local variable en is never read
+----------
+280. WARNING in lsedit/HistoryBox.java (at line 194)
+	boolean		ret;
+	       		^^^
+The local variable ret is never read
+----------
+281. WARNING in lsedit/HistoryBox.java (at line 195)
+	Vector		v;
+	      		^
+The local variable v is never read
+----------
+----------
+282. WARNING in lsedit/HistoryNext_Button.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+283. WARNING in lsedit/HistoryNext_Button.java (at line 6)
+	import java.awt.Event;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Event is never used
+----------
+284. WARNING in lsedit/HistoryNext_Button.java (at line 10)
+	public class HistoryNext_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^^^^^
+The serializable class HistoryNext_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+285. WARNING in lsedit/HistoryPrev_Button.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+286. WARNING in lsedit/HistoryPrev_Button.java (at line 6)
+	import java.awt.Event;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Event is never used
+----------
+287. WARNING in lsedit/HistoryPrev_Button.java (at line 10)
+	public class HistoryPrev_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^^^^^
+The serializable class HistoryPrev_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+288. WARNING in lsedit/ImageChooser.java (at line 3)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+289. WARNING in lsedit/ImageChooser.java (at line 4)
+	import java.util.Vector;
+	       ^^^^^^^^^^^^^^^^
+The import java.util.Vector is never used
+----------
+290. WARNING in lsedit/ImageChooser.java (at line 15)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+291. WARNING in lsedit/ImageChooser.java (at line 21)
+	import java.awt.event.MouseEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.MouseEvent is never used
+----------
+292. WARNING in lsedit/ImageChooser.java (at line 22)
+	import java.awt.event.MouseListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.MouseListener is never used
+----------
+293. WARNING in lsedit/ImageChooser.java (at line 30)
+	import javax.swing.JTextField;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JTextField is never used
+----------
+294. WARNING in lsedit/ImageChooser.java (at line 34)
+	class ImageCheckBox extends JCheckBox implements Icon
+	      ^^^^^^^^^^^^^
+The serializable class ImageCheckBox does not declare a static final serialVersionUID field of type long
+----------
+295. WARNING in lsedit/ImageChooser.java (at line 69)
+	class ImageChooser extends JDialog implements ActionListener, ItemListener {
+	      ^^^^^^^^^^^^
+The serializable class ImageChooser does not declare a static final serialVersionUID field of type long
+----------
+296. WARNING in lsedit/ImageChooser.java (at line 71)
+	class LayoutImage extends JComponent
+	      ^^^^^^^^^^^
+The serializable class LayoutImage does not declare a static final serialVersionUID field of type long
+----------
+297. WARNING in lsedit/ImageChooser.java (at line 125)
+	JLabel				label;
+	      				^^^^^
+The local variable label is never read
+----------
+----------
+298. WARNING in lsedit/LandscapeClassObject.java (at line 3)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+299. WARNING in lsedit/LandscapeClassObject.java (at line 344)
+	int					 i, j, size;
+	   					       ^^^^
+The local variable size is never read
+----------
+----------
+300. WARNING in lsedit/LandscapeEditorCore.java (at line 12)
+	import java.awt.FlowLayout;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.FlowLayout is never used
+----------
+301. WARNING in lsedit/LandscapeEditorCore.java (at line 17)
+	import java.awt.event.ItemEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ItemEvent is never used
+----------
+302. WARNING in lsedit/LandscapeEditorCore.java (at line 18)
+	import java.awt.event.ItemListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.ItemListener is never used
+----------
+303. WARNING in lsedit/LandscapeEditorCore.java (at line 40)
+	import java.util.regex.Pattern;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import java.util.regex.Pattern is never used
+----------
+304. WARNING in lsedit/LandscapeEditorCore.java (at line 44)
+	import javax.swing.JComboBox;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComboBox is never used
+----------
+305. WARNING in lsedit/LandscapeEditorCore.java (at line 46)
+	import javax.swing.JDialog;
+	       ^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JDialog is never used
+----------
+306. WARNING in lsedit/LandscapeEditorCore.java (at line 56)
+	import javax.swing.JScrollBar;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JScrollBar is never used
+----------
+307. WARNING in lsedit/LandscapeEditorCore.java (at line 59)
+	import javax.swing.JTextField;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JTextField is never used
+----------
+308. WARNING in lsedit/LandscapeEditorCore.java (at line 62)
+	import javax.swing.KeyStroke;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.KeyStroke is never used
+----------
+309. WARNING in lsedit/LandscapeEditorCore.java (at line 66)
+	class DefaultBrowserButton extends JButton implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^^^
+The serializable class DefaultBrowserButton does not declare a static final serialVersionUID field of type long
+----------
+310. WARNING in lsedit/LandscapeEditorCore.java (at line 606)
+	String				userHome, path, filename;
+	      				                ^^^^^^^^
+The local variable filename is never read
+----------
+311. WARNING in lsedit/LandscapeEditorCore.java (at line 609)
+	String				s;
+	      				^
+The local variable s is never read
+----------
+312. WARNING in lsedit/LandscapeEditorCore.java (at line 848)
+	String				initfile;
+	      				^^^^^^^^
+The local variable initfile is never read
+----------
+313. WARNING in lsedit/LandscapeEditorCore.java (at line 938)
+	resultBox.setTitleFont(newFont);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method setTitleFont(Font) from the type ResultBox should be accessed in a static way
+----------
+314. WARNING in lsedit/LandscapeEditorCore.java (at line 942)
+	resultBox.setTextFont(newFont);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method setTextFont(Font) from the type ResultBox should be accessed in a static way
+----------
+315. WARNING in lsedit/LandscapeEditorCore.java (at line 946)
+	legendBox.setTitleFont(newFont);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method setTitleFont(Font) from the type LegendBox should be accessed in a static way
+----------
+316. WARNING in lsedit/LandscapeEditorCore.java (at line 950)
+	legendBox.setTextFont(newFont);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method setTextFont(Font) from the type LegendBox should be accessed in a static way
+----------
+317. WARNING in lsedit/LandscapeEditorCore.java (at line 954)
+	queryBox.setTitleFont(newFont);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method setTitleFont(Font) from the type QueryBox should be accessed in a static way
+----------
+318. WARNING in lsedit/LandscapeEditorCore.java (at line 958)
+	queryBox.setTextFont(newFont);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method setTextFont(Font) from the type QueryBox should be accessed in a static way
+----------
+319. WARNING in lsedit/LandscapeEditorCore.java (at line 1390)
+	String	name, diagramName;
+	      	^^^^
+The local variable name is never read
+----------
+320. WARNING in lsedit/LandscapeEditorCore.java (at line 1391)
+	int		i;
+	   		^
+The local variable i is never read
+----------
+321. WARNING in lsedit/LandscapeEditorCore.java (at line 1600)
+	FileFilter	filter;
+	          	^^^^^^
+The local variable filter is never read
+----------
+322. WARNING in lsedit/LandscapeEditorCore.java (at line 1864)
+	Rectangle		curLayout;
+	         		^^^^^^^^^
+The local variable curLayout is never read
+----------
+323. WARNING in lsedit/LandscapeEditorCore.java (at line 1927)
+	EntityInstance	e, e1;
+	              	   ^^
+The local variable e1 is never read
+----------
+324. WARNING in lsedit/LandscapeEditorCore.java (at line 1928)
+	double			xi, yi, widthi, heighti, xj, yj, widthj, shift, max;
+	      			                                 ^^^^^^
+The local variable widthj is never read
+----------
+325. WARNING in lsedit/LandscapeEditorCore.java (at line 2292)
+	Rectangle		klyt    = ke.getDiagramBounds();
+	         		^^^^
+The local variable klyt is never read
+----------
+326. WARNING in lsedit/LandscapeEditorCore.java (at line 2658)
+	EntityInstance	startEntity  = null;
+	              	^^^^^^^^^^^
+The local variable startEntity is never read
+----------
+327. WARNING in lsedit/LandscapeEditorCore.java (at line 2659)
+	int				forward      = m_forward;
+	   				^^^^^^^
+The local variable forward is never read
+----------
+328. WARNING in lsedit/LandscapeEditorCore.java (at line 2807)
+	Vector result;
+	       ^^^^^^
+The local variable result is never read
+----------
+329. WARNING in lsedit/LandscapeEditorCore.java (at line 3612)
+	String str; 
+	       ^^^
+The local variable str is never read
+----------
+330. WARNING in lsedit/LandscapeEditorCore.java (at line 3689)
+	Vista vista = new Vista(this); 
+	      ^^^^^
+The local variable vista is never read
+----------
+331. WARNING in lsedit/LandscapeEditorCore.java (at line 4382)
+	Diagram				diagram       = getDiagram();
+	       				^^^^^^^
+The local variable diagram is never read
+----------
+332. WARNING in lsedit/LandscapeEditorCore.java (at line 4383)
+	String				containsLabel = rc.getLabel();
+	      				^^^^^^^^^^^^^
+The local variable containsLabel is never read
+----------
+333. WARNING in lsedit/LandscapeEditorCore.java (at line 4385)
+	JFrame				frame         = getFrame();
+	      				^^^^^
+The local variable frame is never read
+----------
+----------
+334. WARNING in lsedit/LandscapeEditorFrame.java (at line 14)
+	public class LandscapeEditorFrame extends JFrame implements WindowListener
+	             ^^^^^^^^^^^^^^^^^^^^
+The serializable class LandscapeEditorFrame does not declare a static final serialVersionUID field of type long
+----------
+----------
+335. WARNING in lsedit/LandscapeObject3D.java (at line 4)
+	import java.awt.Graphics;
+	       ^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics is never used
+----------
+336. WARNING in lsedit/LandscapeObject3D.java (at line 5)
+	import java.util.*;
+	       ^^^^^^^^^
+The import java.util is never used
+----------
+337. WARNING in lsedit/LandscapeObject3D.java (at line 6)
+	import java.io.*; 
+	       ^^^^^^^
+The import java.io is never used
+----------
+----------
+338. WARNING in lsedit/LandscapeObject.java (at line 4)
+	import java.awt.Graphics;
+	       ^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics is never used
+----------
+339. WARNING in lsedit/LandscapeObject.java (at line 6)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+340. WARNING in lsedit/LandscapeObject.java (at line 7)
+	import java.util.Hashtable;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Hashtable is never used
+----------
+341. WARNING in lsedit/LandscapeObject.java (at line 10)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+342. WARNING in lsedit/LandscapeObject.java (at line 23)
+	private final static int    MAX_RGB         = 255; 
+	                            ^^^^^^^
+The field LandscapeObject.MAX_RGB is never read locally
+----------
+343. WARNING in lsedit/LandscapeObject.java (at line 570)
+	int			left, i, j, max, length, free;
+	   			^^^^
+The local variable left is never read
+----------
+344. WARNING in lsedit/LandscapeObject.java (at line 780)
+	int			i, primary;
+	   			   ^^^^^^^
+The local variable primary is never read
+----------
+----------
+345. WARNING in lsedit/LandscapeTokenStream.java (at line 64)
+	Attribute			newAttr;
+	         			^^^^^^^
+The local variable newAttr is never read
+----------
+346. WARNING in lsedit/LandscapeTokenStream.java (at line 336)
+	String			token3;
+	      			^^^^^^
+The local variable token3 is never read
+----------
+----------
+347. WARNING in lsedit/LandscapeViewer.java (at line 23)
+	public class LandscapeViewer extends JApplet {
+	             ^^^^^^^^^^^^^^^
+The serializable class LandscapeViewer does not declare a static final serialVersionUID field of type long
+----------
+348. WARNING in lsedit/LandscapeViewer.java (at line 88)
+	int		lth = name.length(); 
+	   		^^^
+The local variable lth is never read
+----------
+----------
+349. WARNING in lsedit/LegendBox.java (at line 13)
+	public final class LegendBox extends ERBox /* extends TabBox extends JComponent */ implements ChangeListener, TaListener, MouseListener 
+	                   ^^^^^^^^^
+The serializable class LegendBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+350. WARNING in lsedit/LsClusterer.java (at line 68)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                          ^^^^^
+The local variable x1max is never read
+----------
+351. WARNING in lsedit/LsClusterer.java (at line 68)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                 ^^^^^
+The local variable y1max is never read
+----------
+352. WARNING in lsedit/LsClusterer.java (at line 68)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                               ^^^^^^
+The local variable radius is never read
+----------
+353. WARNING in lsedit/LsClusterer.java (at line 68)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                                       ^^^^^^^
+The local variable radius1 is never read
+----------
+354. WARNING in lsedit/LsClusterer.java (at line 68)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                                                                  ^^^^^^^^^
+The local variable newlength is never read
+----------
+355. WARNING in lsedit/LsClusterer.java (at line 309)
+	double		xm, ym, xc, yc, fill;
+	      		                ^^^^
+The local variable fill is never read
+----------
+----------
+356. WARNING in lsedit/MapBox.java (at line 9)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+357. WARNING in lsedit/MapBox.java (at line 15)
+	import javax.swing.JScrollPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JScrollPane is never used
+----------
+358. WARNING in lsedit/MapBox.java (at line 17)
+	import javax.swing.Scrollable;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.Scrollable is never used
+----------
+359. WARNING in lsedit/MapBox.java (at line 22)
+	class Map extends JComponent implements MouseListener
+	      ^^^
+The serializable class Map does not declare a static final serialVersionUID field of type long
+----------
+360. WARNING in lsedit/MapBox.java (at line 165)
+	public class MapBox extends TabBox /* extends JComponent */ implements ChangeListener, TaListener
+	             ^^^^^^
+The serializable class MapBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+361. WARNING in lsedit/MatrixLayout.java (at line 3)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+362. WARNING in lsedit/MatrixLayout.java (at line 11)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+363. WARNING in lsedit/MatrixLayout.java (at line 271)
+	class MatrixConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^
+The serializable class MatrixConfigure does not declare a static final serialVersionUID field of type long
+----------
+364. WARNING in lsedit/MatrixLayout.java (at line 273)
+	class LayoutImage extends JComponent implements MouseListener
+	      ^^^^^^^^^^^
+The serializable class LayoutImage does not declare a static final serialVersionUID field of type long
+----------
+365. WARNING in lsedit/MatrixLayout.java (at line 285)
+	int			i;
+	   			^
+The local variable i is never read
+----------
+366. WARNING in lsedit/MatrixLayout.java (at line 694)
+	int				rows, columns, row, col, i, gaps, actualWidth, minWidth, cnt;
+	   				                            ^^^^
+The local variable gaps is never read
+----------
+367. WARNING in lsedit/MatrixLayout.java (at line 696)
+	double			xmarginrel, ymarginrel, xrel, yrel, widthrel, heightrel, dval, gapw, gaph, parentWidth;
+	      			                                                         ^^^^
+The local variable dval is never read
+----------
+----------
+368. WARNING in lsedit/MoveModeHandler.java (at line 18)
+	protected class DrawOutline extends JComponent
+	                ^^^^^^^^^^^
+The serializable class DrawOutline does not declare a static final serialVersionUID field of type long
+----------
+----------
+369. WARNING in lsedit/MyCompoundEdit.java (at line 8)
+	class MyCompoundEdit extends CompoundEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^
+The serializable class MyCompoundEdit does not declare a static final serialVersionUID field of type long
+----------
+----------
+370. WARNING in lsedit/MyHistoryMenuItem.java (at line 3)
+	import java.awt.Event;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Event is never used
+----------
+371. WARNING in lsedit/MyHistoryMenuItem.java (at line 7)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+372. WARNING in lsedit/MyHistoryMenuItem.java (at line 12)
+	class MyHistoryMenuItem extends JMenuItem implements ActionListener
+	      ^^^^^^^^^^^^^^^^^
+The serializable class MyHistoryMenuItem does not declare a static final serialVersionUID field of type long
+----------
+373. WARNING in lsedit/MyHistoryMenuItem.java (at line 75)
+	int	choice;
+	   	^^^^^^
+The local variable choice is never read
+----------
+----------
+374. WARNING in lsedit/MyMenuItem.java (at line 13)
+	class MyMenuItem extends JMenuItem implements ActionListener
+	      ^^^^^^^^^^
+The serializable class MyMenuItem does not declare a static final serialVersionUID field of type long
+----------
+----------
+375. WARNING in lsedit/MyPaintableUndoableEdit.java (at line 11)
+	public class MyPaintableUndoableEdit extends MyUndoableEdit implements UndoableEdit {
+	             ^^^^^^^^^^^^^^^^^^^^^^^
+The serializable class MyPaintableUndoableEdit does not declare a static final serialVersionUID field of type long
+----------
+----------
+376. WARNING in lsedit/MyUndoableEdit.java (at line 7)
+	public class MyUndoableEdit extends AbstractUndoableEdit implements UndoableEdit {
+	             ^^^^^^^^^^^^^^
+The serializable class MyUndoableEdit does not declare a static final serialVersionUID field of type long
+----------
+----------
+377. WARNING in lsedit/MyWindowsMenuItem.java (at line 4)
+	import java.awt.Event;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Event is never used
+----------
+378. WARNING in lsedit/MyWindowsMenuItem.java (at line 8)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+379. WARNING in lsedit/MyWindowsMenuItem.java (at line 10)
+	import javax.swing.JMenuItem;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JMenuItem is never used
+----------
+380. WARNING in lsedit/MyWindowsMenuItem.java (at line 11)
+	import javax.swing.JOptionPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JOptionPane is never used
+----------
+381. WARNING in lsedit/MyWindowsMenuItem.java (at line 13)
+	class MyWindowsMenuItem extends MyHistoryMenuItem implements ActionListener
+	      ^^^^^^^^^^^^^^^^^
+The serializable class MyWindowsMenuItem does not declare a static final serialVersionUID field of type long
+----------
+----------
+382. WARNING in lsedit/NavNext_Button.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+383. WARNING in lsedit/NavNext_Button.java (at line 10)
+	public class NavNext_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^
+The serializable class NavNext_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+384. WARNING in lsedit/NavPrev_Button.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+385. WARNING in lsedit/NavPrev_Button.java (at line 10)
+	public class NavPrev_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^
+The serializable class NavPrev_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+386. WARNING in lsedit/NewEdgeModeHandler.java (at line 4)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+387. WARNING in lsedit/NewEdgeModeHandler.java (at line 6)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+388. WARNING in lsedit/NewEdgeModeHandler.java (at line 8)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+389. WARNING in lsedit/NewEdgeModeHandler.java (at line 21)
+	protected class DrawOutline extends JComponent
+	                ^^^^^^^^^^^
+The serializable class DrawOutline does not declare a static final serialVersionUID field of type long
+----------
+390. WARNING in lsedit/NewEdgeModeHandler.java (at line 57)
+	int				src_x;
+	   				^^^^^
+The local variable src_x is never read
+----------
+391. WARNING in lsedit/NewEdgeModeHandler.java (at line 58)
+	int				src_y;
+	   				^^^^^
+The local variable src_y is never read
+----------
+392. WARNING in lsedit/NewEdgeModeHandler.java (at line 120)
+	Diagram	diagram = m_ls.getDiagram();
+	       	^^^^^^^
+The local variable diagram is never read
+----------
+393. WARNING in lsedit/NewEdgeModeHandler.java (at line 131)
+	LandscapeModeHandler	handler;
+	                    	^^^^^^^
+The local variable handler is never read
+----------
+----------
+394. WARNING in lsedit/Option.java (at line 5)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+395. WARNING in lsedit/Option.java (at line 338)
+	Font[]	fonts = m_fonts;
+	      	^^^^^
+The local variable fonts is never read
+----------
+----------
+396. WARNING in lsedit/OptionsDialog.java (at line 34)
+	class SetNewGridDialog extends JDialog implements ChangeListener, ActionListener
+	      ^^^^^^^^^^^^^^^^
+The serializable class SetNewGridDialog does not declare a static final serialVersionUID field of type long
+----------
+397. WARNING in lsedit/OptionsDialog.java (at line 36)
+	class GridImage extends JComponent
+	      ^^^^^^^^^
+The serializable class GridImage does not declare a static final serialVersionUID field of type long
+----------
+398. WARNING in lsedit/OptionsDialog.java (at line 175)
+	public class OptionsDialog extends JDialog implements ActionListener { 
+	             ^^^^^^^^^^^^^
+The serializable class OptionsDialog does not declare a static final serialVersionUID field of type long
+----------
+----------
+399. WARNING in lsedit/Options.java (at line 5)
+	import javax.swing.JMenuBar;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JMenuBar is never used
+----------
+400. WARNING in lsedit/Options.java (at line 6)
+	import javax.swing.JMenu;
+	       ^^^^^^^^^^^^^^^^^
+The import javax.swing.JMenu is never used
+----------
+----------
+401. WARNING in lsedit/Query_b_Button.java (at line 8)
+	public class Query_b_Button extends ToolBarButton 
+	             ^^^^^^^^^^^^^^
+The serializable class Query_b_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+402. WARNING in lsedit/QueryBox.java (at line 9)
+	import java.awt.event.MouseEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.event.MouseEvent is never used
+----------
+403. WARNING in lsedit/QueryBox.java (at line 199)
+	class TraceLiftedChkBox extends JCheckBox implements ItemListener
+	      ^^^^^^^^^^^^^^^^^
+The serializable class TraceLiftedChkBox does not declare a static final serialVersionUID field of type long
+----------
+404. WARNING in lsedit/QueryBox.java (at line 223)
+	class GrpChkBox extends JCheckBox implements ItemListener
+	      ^^^^^^^^^
+The serializable class GrpChkBox does not declare a static final serialVersionUID field of type long
+----------
+405. WARNING in lsedit/QueryBox.java (at line 247)
+	class QueryPersistsChkBox extends JCheckBox implements ItemListener
+	      ^^^^^^^^^^^^^^^^^^^
+The serializable class QueryPersistsChkBox does not declare a static final serialVersionUID field of type long
+----------
+406. WARNING in lsedit/QueryBox.java (at line 271)
+	public final class QueryBox extends ERBox /* extends TabBox extends JComponent */ implements ChangeListener, TaListener, MouseListener
+	                   ^^^^^^^^
+The serializable class QueryBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+407. WARNING in lsedit/Query_C_Button.java (at line 9)
+	public class Query_C_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^
+The serializable class Query_C_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+408. WARNING in lsedit/Query_Clear_Button.java (at line 11)
+	public class Query_Clear_Button extends ToolBarButton
+	             ^^^^^^^^^^^^^^^^^^
+The serializable class Query_Clear_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+409. WARNING in lsedit/Query_f_Button.java (at line 8)
+	public class Query_f_Button extends ToolBarButton 
+	             ^^^^^^^^^^^^^^
+The serializable class Query_f_Button does not declare a static final serialVersionUID field of type long
+----------
+----------
+410. WARNING in lsedit/Recluster.java (at line 15)
+	import javax.swing.JCheckBox;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JCheckBox is never used
+----------
+411. WARNING in lsedit/Recluster.java (at line 23)
+	class ReclusterConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class ReclusterConfigure does not declare a static final serialVersionUID field of type long
+----------
+----------
+412. WARNING in lsedit/RelationClass.java (at line 6)
+	import java.util.Hashtable;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Hashtable is never used
+----------
+413. WARNING in lsedit/RelationClass.java (at line 380)
+	Enumeration		en;
+	           		^^
+The local variable en is never read
+----------
+414. WARNING in lsedit/RelationClass.java (at line 385)
+	int				i, j, size;
+	   				      ^^^^
+The local variable size is never read
+----------
+----------
+415. WARNING in lsedit/RelationComponent.java (at line 4)
+	import java.awt.Component;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Component is never used
+----------
+416. WARNING in lsedit/RelationComponent.java (at line 5)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+417. WARNING in lsedit/RelationComponent.java (at line 6)
+	import java.awt.Font;
+	       ^^^^^^^^^^^^^
+The import java.awt.Font is never used
+----------
+418. WARNING in lsedit/RelationComponent.java (at line 8)
+	import java.awt.Graphics2D;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics2D is never used
+----------
+419. WARNING in lsedit/RelationComponent.java (at line 14)
+	import java.awt.geom.AffineTransform;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.awt.geom.AffineTransform is never used
+----------
+420. WARNING in lsedit/RelationComponent.java (at line 20)
+	import javax.swing.JLabel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JLabel is never used
+----------
+421. WARNING in lsedit/RelationComponent.java (at line 58)
+	int x1, y1, x2, y2, x, y, linewidth;
+	                    ^
+The local variable x is never read
+----------
+422. WARNING in lsedit/RelationComponent.java (at line 58)
+	int x1, y1, x2, y2, x, y, linewidth;
+	                       ^
+The local variable y is never read
+----------
+423. WARNING in lsedit/RelationComponent.java (at line 320)
+	int		y2;
+	   		^^
+The local variable y2 is never read
+----------
+424. WARNING in lsedit/RelationComponent.java (at line 426)
+	Color tc = g.getColor();
+	      ^^
+The local variable tc is never read
+----------
+425. WARNING in lsedit/RelationComponent.java (at line 460)
+	int				 x1, y1, x2, y2;
+	   				         ^^
+The local variable x2 is never read
+----------
+426. WARNING in lsedit/RelationComponent.java (at line 460)
+	int				 x1, y1, x2, y2;
+	   				             ^^
+The local variable y2 is never read
+----------
+427. WARNING in lsedit/RelationComponent.java (at line 999)
+	public class RelationComponent extends JComponent implements MouseListener, MouseMotionListener   
+	             ^^^^^^^^^^^^^^^^^
+The serializable class RelationComponent does not declare a static final serialVersionUID field of type long
+----------
+428. WARNING in lsedit/RelationComponent.java (at line 1008)
+	private static int[]  m_arc_xp = {0, 0, 0};
+	                      ^^^^^^^^
+The field RelationComponent.m_arc_xp is never read locally
+----------
+429. WARNING in lsedit/RelationComponent.java (at line 1009)
+	private static int[]  m_arc_yp = {0, 0, 0};
+	                      ^^^^^^^^
+The field RelationComponent.m_arc_yp is never read locally
+----------
+430. WARNING in lsedit/RelationComponent.java (at line 1056)
+	int					shiftX, shiftY, x1, y1, x2, y2;
+	   					                ^^
+The local variable x1 is never read
+----------
+431. WARNING in lsedit/RelationComponent.java (at line 1056)
+	int					shiftX, shiftY, x1, y1, x2, y2;
+	   					                    ^^
+The local variable y1 is never read
+----------
+432. WARNING in lsedit/RelationComponent.java (at line 1056)
+	int					shiftX, shiftY, x1, y1, x2, y2;
+	   					                        ^^
+The local variable x2 is never read
+----------
+433. WARNING in lsedit/RelationComponent.java (at line 1056)
+	int					shiftX, shiftY, x1, y1, x2, y2;
+	   					                            ^^
+The local variable y2 is never read
+----------
+434. WARNING in lsedit/RelationComponent.java (at line 1499)
+	Diagram			diagram		   = rc.getDiagram();
+	       			^^^^^^^
+The local variable diagram is never read
+----------
+435. WARNING in lsedit/RelationComponent.java (at line 1680)
+	EdgePoint	ep;
+	         	^^
+The local variable ep is never read
+----------
+----------
+436. WARNING in lsedit/RelationInstance.java (at line 3)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+437. WARNING in lsedit/RelationInstance.java (at line 6)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+438. WARNING in lsedit/RelationInstance.java (at line 9)
+	import java.io.StringWriter;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.io.StringWriter is never used
+----------
+439. WARNING in lsedit/RelationInstance.java (at line 11)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+440. WARNING in lsedit/RelationInstance.java (at line 12)
+	import java.util.Hashtable;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Hashtable is never used
+----------
+441. WARNING in lsedit/RelationInstance.java (at line 431)
+	int				direction   = parentClass.getShown();
+	   				^^^^^^^^^
+The local variable direction is never read
+----------
+----------
+442. WARNING in lsedit/RelationLabel.java (at line 4)
+	import java.awt.Dimension;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Dimension is never used
+----------
+443. WARNING in lsedit/RelationLabel.java (at line 9)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+444. WARNING in lsedit/RelationLabel.java (at line 17)
+	class RelationLabel extends JComponent
+	      ^^^^^^^^^^^^^
+The serializable class RelationLabel does not declare a static final serialVersionUID field of type long
+----------
+----------
+445. WARNING in lsedit/ResizeModeHandler.java (at line 14)
+	class DrawOutline extends JComponent
+	      ^^^^^^^^^^^
+The serializable class DrawOutline does not declare a static final serialVersionUID field of type long
+----------
+446. WARNING in lsedit/ResizeModeHandler.java (at line 83)
+	Diagram			diagram = m_ls.getDiagram();
+	       			^^^^^^^
+The local variable diagram is never read
+----------
+447. WARNING in lsedit/ResizeModeHandler.java (at line 138)
+	private String resizeDescription() 
+	               ^^^^^^^^^^^^^^^^^^^
+The method resizeDescription() from the type ResizeModeHandler is never used locally
+----------
+448. WARNING in lsedit/ResizeModeHandler.java (at line 327)
+	Diagram diagram = m_ls.getDiagram();
+	        ^^^^^^^
+The local variable diagram is never read
+----------
+----------
+449. WARNING in lsedit/ResultBox.java (at line 41)
+	class ResultBoxConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class ResultBoxConfigure does not declare a static final serialVersionUID field of type long
+----------
+450. WARNING in lsedit/ResultBox.java (at line 228)
+	public final class ResultBox extends TabBox /* extends JComponent */ implements ChangeListener, TaListener, Scrollable, MouseListener 
+	                   ^^^^^^^^^
+The serializable class ResultBox does not declare a static final serialVersionUID field of type long
+----------
+451. WARNING in lsedit/ResultBox.java (at line 238)
+	class ResultLabel extends JLabel
+	      ^^^^^^^^^^^
+The serializable class ResultLabel does not declare a static final serialVersionUID field of type long
+----------
+452. WARNING in lsedit/ResultBox.java (at line 254)
+	class ResultTitleLabel extends ResultLabel
+	      ^^^^^^^^^^^^^^^^
+The serializable class ResultTitleLabel does not declare a static final serialVersionUID field of type long
+----------
+453. WARNING in lsedit/ResultBox.java (at line 260)
+	class ResultEntity extends ResultLabel implements MouseListener
+	      ^^^^^^^^^^^^
+The serializable class ResultEntity does not declare a static final serialVersionUID field of type long
+----------
+454. WARNING in lsedit/ResultBox.java (at line 351)
+	class ResultAttribute extends ResultLabel
+	      ^^^^^^^^^^^^^^^
+The serializable class ResultAttribute does not declare a static final serialVersionUID field of type long
+----------
+455. WARNING in lsedit/ResultBox.java (at line 365)
+	class HorizontalResult extends JComponent
+	      ^^^^^^^^^^^^^^^^
+The serializable class HorizontalResult does not declare a static final serialVersionUID field of type long
+----------
+456. WARNING in lsedit/ResultBox.java (at line 390)
+	class VerticalResult extends JComponent
+	      ^^^^^^^^^^^^^^
+The serializable class VerticalResult does not declare a static final serialVersionUID field of type long
+----------
+457. WARNING in lsedit/ResultBox.java (at line 416)
+	class ResultRelation extends HorizontalResult
+	      ^^^^^^^^^^^^^^
+The serializable class ResultRelation does not declare a static final serialVersionUID field of type long
+----------
+458. WARNING in lsedit/ResultBox.java (at line 449)
+	class ResultSetHeader extends HorizontalResult
+	      ^^^^^^^^^^^^^^^
+The serializable class ResultSetHeader does not declare a static final serialVersionUID field of type long
+----------
+459. WARNING in lsedit/ResultBox.java (at line 455)
+	Enumeration			en;
+	           			^^
+The local variable en is never read
+----------
+460. WARNING in lsedit/ResultBox.java (at line 458)
+	Object				object;
+	      				^^^^^^
+The local variable object is never read
+----------
+461. WARNING in lsedit/ResultBox.java (at line 459)
+	EntityInstance		e;
+	              		^
+The local variable e is never read
+----------
+462. WARNING in lsedit/ResultBox.java (at line 460)
+	RelationInstance	r;
+	                	^
+The local variable r is never read
+----------
+463. WARNING in lsedit/ResultBox.java (at line 520)
+	class ResultSet extends VerticalResult
+	      ^^^^^^^^^
+The serializable class ResultSet does not declare a static final serialVersionUID field of type long
+----------
+464. WARNING in lsedit/ResultBox.java (at line 556)
+	class ResultContents extends VerticalResult
+	      ^^^^^^^^^^^^^^
+The serializable class ResultContents does not declare a static final serialVersionUID field of type long
+----------
+465. WARNING in lsedit/ResultBox.java (at line 564)
+	Object				object;
+	      				^^^^^^
+The local variable object is never read
+----------
+----------
+466. WARNING in lsedit/RightTabbedPane.java (at line 3)
+	import java.awt.Event;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Event is never used
+----------
+467. WARNING in lsedit/RightTabbedPane.java (at line 11)
+	public class RightTabbedPane extends JTabbedPane implements ToolBarEventHandler, MouseListener {
+	             ^^^^^^^^^^^^^^^
+The serializable class RightTabbedPane does not declare a static final serialVersionUID field of type long
+----------
+468. WARNING in lsedit/RightTabbedPane.java (at line 56)
+	JMenuItem			mi;
+	         			^^
+The local variable mi is never read
+----------
+----------
+469. WARNING in lsedit/SelectedElisions.java (at line 9)
+	import javax.swing.BorderFactory;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.BorderFactory is never used
+----------
+470. WARNING in lsedit/SelectedElisions.java (at line 15)
+	class SelectedElisions extends JLabel implements TableCellRenderer, Icon {
+	      ^^^^^^^^^^^^^^^^
+The serializable class SelectedElisions does not declare a static final serialVersionUID field of type long
+----------
+471. WARNING in lsedit/SelectedElisions.java (at line 48)
+	Font		bold = font.deriveFont(Font.BOLD);
+	    		^^^^
+The local variable bold is never read
+----------
+----------
+472. WARNING in lsedit/SimplexLayout.java (at line 8)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+473. WARNING in lsedit/SimplexLayout.java (at line 9)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+474. WARNING in lsedit/SimplexLayout.java (at line 397)
+	class SimplexConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^
+The serializable class SimplexConfigure does not declare a static final serialVersionUID field of type long
+----------
+475. WARNING in lsedit/SimplexLayout.java (at line 1206)
+	int					fixedOrder = parameterCombo(FIXEDORDER);
+	   					^^^^^^^^^^
+The local variable fixedOrder is never read
+----------
+476. WARNING in lsedit/SimplexLayout.java (at line 1219)
+	int		width, height, max_width, fixed, fit;
+	   		                          ^^^^^
+The local variable fixed is never read
+----------
+477. WARNING in lsedit/SimplexLayout.java (at line 1226)
+	double	avg_relheight, d;
+	      	               ^
+The local variable d is never read
+----------
+----------
+478. WARNING in lsedit/SpanningClasses.java (at line 6)
+	import java.awt.FlowLayout;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.FlowLayout is never used
+----------
+479. WARNING in lsedit/SpanningClasses.java (at line 24)
+	import javax.swing.table.JTableHeader;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.table.JTableHeader is never used
+----------
+480. WARNING in lsedit/SpanningClasses.java (at line 30)
+	class MyTableModel extends AbstractTableModel {
+	      ^^^^^^^^^^^^
+The serializable class MyTableModel does not declare a static final serialVersionUID field of type long
+----------
+481. WARNING in lsedit/SpanningClasses.java (at line 215)
+	class MyJTable extends JTable implements TableModelListener {
+	      ^^^^^^^^
+The serializable class MyJTable does not declare a static final serialVersionUID field of type long
+----------
+482. WARNING in lsedit/SpanningClasses.java (at line 248)
+	public class SpanningClasses extends JDialog implements ActionListener { //Class definition
+	             ^^^^^^^^^^^^^^^
+The serializable class SpanningClasses does not declare a static final serialVersionUID field of type long
+----------
+483. WARNING in lsedit/SpanningClasses.java (at line 272)
+	private Diagram				m_diagram;	
+	               				^^^^^^^^^
+The field SpanningClasses.m_diagram is never read locally
+----------
+484. WARNING in lsedit/SpanningClasses.java (at line 283)
+	JPanel		panel;
+	      		^^^^^
+The local variable panel is never read
+----------
+----------
+485. WARNING in lsedit/SpringLayout2.java (at line 11)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+486. WARNING in lsedit/SpringLayout2.java (at line 15)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+487. WARNING in lsedit/SpringLayout2.java (at line 266)
+	class SpringConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^
+The serializable class SpringConfigure does not declare a static final serialVersionUID field of type long
+----------
+488. WARNING in lsedit/SpringLayout2.java (at line 602)
+	int					dir          = 0;
+	   					^^^
+The local variable dir is never read
+----------
+489. WARNING in lsedit/SpringLayout2.java (at line 603)
+	int					cycle        = 100;
+	   					^^^^^
+The local variable cycle is never read
+----------
+490. WARNING in lsedit/SpringLayout2.java (at line 614)
+	double				ideal_length;
+	      				^^^^^^^^^^^^
+The local variable ideal_length is never read
+----------
+491. WARNING in lsedit/SpringLayout2.java (at line 615)
+	long				timeout1;
+	    				^^^^^^^^
+The local variable timeout1 is never read
+----------
+----------
+492. WARNING in lsedit/SpringLayout.java (at line 11)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+493. WARNING in lsedit/SpringLayout.java (at line 15)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+494. WARNING in lsedit/SpringLayout.java (at line 273)
+	class SpringConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^
+The serializable class SpringConfigure does not declare a static final serialVersionUID field of type long
+----------
+495. WARNING in lsedit/SpringLayout.java (at line 585)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                               ^^^^^^
+The local variable radius is never read
+----------
+496. WARNING in lsedit/SpringLayout.java (at line 585)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                                       ^^^^^^^
+The local variable radius1 is never read
+----------
+497. WARNING in lsedit/SpringLayout.java (at line 585)
+	double				x, y, x1, y1, xmax, ymax, x1max, y1max, xdiff, radius, radius1, ydiff, f, length, newlength;
+	      				                                                                                  ^^^^^^^^^
+The local variable newlength is never read
+----------
+----------
+498. WARNING in lsedit/SrcCardinal.java (at line 4)
+	import java.awt.Font;
+	       ^^^^^^^^^^^^^
+The import java.awt.Font is never used
+----------
+499. WARNING in lsedit/SrcCardinal.java (at line 5)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+500. WARNING in lsedit/SrcCardinal.java (at line 8)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+501. WARNING in lsedit/SrcCardinal.java (at line 10)
+	class SrcCardinal extends Cardinal {
+	      ^^^^^^^^^^^
+The serializable class SrcCardinal does not declare a static final serialVersionUID field of type long
+----------
+----------
+502. WARNING in lsedit/StringLinizer.java (at line 15)
+	private static char[]  a0 = {'<','a',' ','h','r','e','f','=',0};
+	                       ^^
+The field StringLinizer.a0 is never read locally
+----------
+----------
+503. WARNING in lsedit/SugiyamaLayout.java (at line 16)
+	import java.awt.Cursor;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Cursor is never used
+----------
+504. WARNING in lsedit/SugiyamaLayout.java (at line 196)
+	class SugiyamaConfigure extends JDialog implements ActionListener {
+	      ^^^^^^^^^^^^^^^^^
+The serializable class SugiyamaConfigure does not declare a static final serialVersionUID field of type long
+----------
+505. WARNING in lsedit/SugiyamaLayout.java (at line 198)
+	class LayoutImage extends JComponent implements MouseListener
+	      ^^^^^^^^^^^
+The serializable class LayoutImage does not declare a static final serialVersionUID field of type long
+----------
+506. WARNING in lsedit/SugiyamaLayout.java (at line 210)
+	int			i;
+	   			^
+The local variable i is never read
+----------
+----------
+507. WARNING in lsedit/SupplierSet.java (at line 9)
+	public class SupplierSet extends ClientSupplierSet
+	             ^^^^^^^^^^^
+The serializable class SupplierSet does not declare a static final serialVersionUID field of type long
+----------
+----------
+508. WARNING in lsedit/SwingWorker.java (at line 21)
+	private Thread thread;
+	               ^^^^^^
+The field SwingWorker.thread is never read locally
+----------
+----------
+509. WARNING in lsedit/TabBox.java (at line 7)
+	import javax.swing.JViewport;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JViewport is never used
+----------
+510. WARNING in lsedit/TabBox.java (at line 11)
+	public class TabBox extends JComponent
+	             ^^^^^^
+The serializable class TabBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+511. WARNING in lsedit/Ta.java (at line 3)
+	import java.io.DataOutputStream;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.io.DataOutputStream is never used
+----------
+512. WARNING in lsedit/Ta.java (at line 19)
+	import java.util.StringTokenizer;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.util.StringTokenizer is never used
+----------
+513. WARNING in lsedit/Ta.java (at line 24)
+	import javax.swing.JFrame;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JFrame is never used
+----------
+514. WARNING in lsedit/Ta.java (at line 48)
+	public class Ta extends JPanel implements TaFeedback
+	             ^^
+The serializable class Ta does not declare a static final serialVersionUID field of type long
+----------
+515. WARNING in lsedit/Ta.java (at line 64)
+	private   Diagram				m_diagram;					// The actual diagram instance else null
+	                 				^^^^^^^^^
+The field Ta.m_diagram is never read locally
+----------
+516. WARNING in lsedit/Ta.java (at line 821)
+	InputStream ret      = is;
+	            ^^^
+The local variable ret is never read
+----------
+517. WARNING in lsedit/Ta.java (at line 1312)
+	Enumeration		en, en1;
+	           		^^
+The local variable en is never read
+----------
+518. WARNING in lsedit/Ta.java (at line 1425)
+	EntityInstance	 e;
+	              	 ^
+The local variable e is never read
+----------
+----------
+519. WARNING in lsedit/TaListener.java (at line 3)
+	import java.util.Vector;
+	       ^^^^^^^^^^^^^^^^
+The import java.util.Vector is never used
+----------
+520. WARNING in lsedit/TaListener.java (at line 4)
+	import javax.swing.undo.UndoableEdit;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.undo.UndoableEdit is never used
+----------
+----------
+521. WARNING in lsedit/TA_StreamTokenizer.java (at line 25)
+	private static final byte	CT_QUOTE    = 3;
+	                         	^^^^^^^^
+The field TA_StreamTokenizer.CT_QUOTE is never read locally
+----------
+522. WARNING in lsedit/TA_StreamTokenizer.java (at line 64)
+	private void dumpBuf(int lth)
+	             ^^^^^^^^^^^^^^^^
+The method dumpBuf(int) from the type TA_StreamTokenizer is never used locally
+----------
+----------
+523. WARNING in lsedit/TemporalTa.java (at line 5)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+524. WARNING in lsedit/TemporalTa.java (at line 14)
+	class SetParentClass extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^
+The serializable class SetParentClass does not declare a static final serialVersionUID field of type long
+----------
+525. WARNING in lsedit/TemporalTa.java (at line 55)
+	class SetStyle extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^
+The serializable class SetStyle does not declare a static final serialVersionUID field of type long
+----------
+526. WARNING in lsedit/TemporalTa.java (at line 90)
+	class SetObjectColor extends MyPaintableUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^
+The serializable class SetObjectColor does not declare a static final serialVersionUID field of type long
+----------
+527. WARNING in lsedit/TemporalTa.java (at line 136)
+	class SetAttributeName extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^
+The serializable class SetAttributeName does not declare a static final serialVersionUID field of type long
+----------
+528. WARNING in lsedit/TemporalTa.java (at line 179)
+	class SetAttributeValue extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^
+The serializable class SetAttributeValue does not declare a static final serialVersionUID field of type long
+----------
+529. WARNING in lsedit/TemporalTa.java (at line 224)
+	class NewRelation extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^
+The serializable class NewRelation does not declare a static final serialVersionUID field of type long
+----------
+530. WARNING in lsedit/TemporalTa.java (at line 253)
+	class DeleteEdge extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^
+The serializable class DeleteEdge does not declare a static final serialVersionUID field of type long
+----------
+531. WARNING in lsedit/TemporalTa.java (at line 282)
+	class SetLabel extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^
+The serializable class SetLabel does not declare a static final serialVersionUID field of type long
+----------
+532. WARNING in lsedit/TemporalTa.java (at line 318)
+	class SetReversedLabel extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^
+The serializable class SetReversedLabel does not declare a static final serialVersionUID field of type long
+----------
+533. WARNING in lsedit/TemporalTa.java (at line 354)
+	class SetDescription extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^
+The serializable class SetDescription does not declare a static final serialVersionUID field of type long
+----------
+534. WARNING in lsedit/TemporalTa.java (at line 390)
+	class SetLabelColor extends MyPaintableUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^
+The serializable class SetLabelColor does not declare a static final serialVersionUID field of type long
+----------
+535. WARNING in lsedit/TemporalTa.java (at line 436)
+	class SetColorWhenOpen extends MyPaintableUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^
+The serializable class SetColorWhenOpen does not declare a static final serialVersionUID field of type long
+----------
+536. WARNING in lsedit/TemporalTa.java (at line 482)
+	class NewEntity extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^
+The serializable class NewEntity does not declare a static final serialVersionUID field of type long
+----------
+537. WARNING in lsedit/TemporalTa.java (at line 518)
+	class SetFontDelta extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^
+The serializable class SetFontDelta does not declare a static final serialVersionUID field of type long
+----------
+538. WARNING in lsedit/TemporalTa.java (at line 553)
+	class SetXRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^
+The serializable class SetXRelLocal does not declare a static final serialVersionUID field of type long
+----------
+539. WARNING in lsedit/TemporalTa.java (at line 588)
+	class SetYRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^
+The serializable class SetYRelLocal does not declare a static final serialVersionUID field of type long
+----------
+540. WARNING in lsedit/TemporalTa.java (at line 623)
+	class SetWidthRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^
+The serializable class SetWidthRelLocal does not declare a static final serialVersionUID field of type long
+----------
+541. WARNING in lsedit/TemporalTa.java (at line 658)
+	class SetHeightRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^
+The serializable class SetHeightRelLocal does not declare a static final serialVersionUID field of type long
+----------
+542. WARNING in lsedit/TemporalTa.java (at line 693)
+	class SetSizeRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^
+The serializable class SetSizeRelLocal does not declare a static final serialVersionUID field of type long
+----------
+543. WARNING in lsedit/TemporalTa.java (at line 729)
+	class SetLocationRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^^^
+The serializable class SetLocationRelLocal does not declare a static final serialVersionUID field of type long
+----------
+544. WARNING in lsedit/TemporalTa.java (at line 765)
+	class SetRelLocal extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^
+The serializable class SetRelLocal does not declare a static final serialVersionUID field of type long
+----------
+545. WARNING in lsedit/TemporalTa.java (at line 807)
+	class LiftEntityEdges extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^
+The serializable class LiftEntityEdges does not declare a static final serialVersionUID field of type long
+----------
+546. WARNING in lsedit/TemporalTa.java (at line 901)
+	RelationClass		rc;
+	             		^^
+The local variable rc is never read
+----------
+547. WARNING in lsedit/TemporalTa.java (at line 927)
+	class CutEntity extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^
+The serializable class CutEntity does not declare a static final serialVersionUID field of type long
+----------
+548. WARNING in lsedit/TemporalTa.java (at line 960)
+	class MoveEntityContainment extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^^^^^
+The serializable class MoveEntityContainment does not declare a static final serialVersionUID field of type long
+----------
+549. WARNING in lsedit/TemporalTa.java (at line 1000)
+	class UpdateDeleteContainer extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^^^^^
+The serializable class UpdateDeleteContainer does not declare a static final serialVersionUID field of type long
+----------
+550. WARNING in lsedit/TemporalTa.java (at line 1034)
+	class ClusterEntity extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^
+The serializable class ClusterEntity does not declare a static final serialVersionUID field of type long
+----------
+551. WARNING in lsedit/TemporalTa.java (at line 1070)
+	class SetInherits extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^
+The serializable class SetInherits does not declare a static final serialVersionUID field of type long
+----------
+552. WARNING in lsedit/TemporalTa.java (at line 1105)
+	class NewEntityClass extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^
+The serializable class NewEntityClass does not declare a static final serialVersionUID field of type long
+----------
+553. WARNING in lsedit/TemporalTa.java (at line 1135)
+	class RemoveEntityClass extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^
+The serializable class RemoveEntityClass does not declare a static final serialVersionUID field of type long
+----------
+554. WARNING in lsedit/TemporalTa.java (at line 1168)
+	class SetImage extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^
+The serializable class SetImage does not declare a static final serialVersionUID field of type long
+----------
+555. WARNING in lsedit/TemporalTa.java (at line 1203)
+	class SetAngle extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^
+The serializable class SetAngle does not declare a static final serialVersionUID field of type long
+----------
+556. WARNING in lsedit/TemporalTa.java (at line 1238)
+	class SetUnscaledIconFile extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^^^
+The serializable class SetUnscaledIconFile does not declare a static final serialVersionUID field of type long
+----------
+557. WARNING in lsedit/TemporalTa.java (at line 1274)
+	class NewRelationClass extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^
+The serializable class NewRelationClass does not declare a static final serialVersionUID field of type long
+----------
+558. WARNING in lsedit/TemporalTa.java (at line 1302)
+	class RemoveRelationClass extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^^^
+The serializable class RemoveRelationClass does not declare a static final serialVersionUID field of type long
+----------
+559. WARNING in lsedit/TemporalTa.java (at line 1332)
+	class SetArrowColor extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^
+The serializable class SetArrowColor does not declare a static final serialVersionUID field of type long
+----------
+560. WARNING in lsedit/TemporalTa.java (at line 1367)
+	class SetIOfactor extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^
+The serializable class SetIOfactor does not declare a static final serialVersionUID field of type long
+----------
+561. WARNING in lsedit/TemporalTa.java (at line 1402)
+	class SwitchContainsClasses extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^^^^^^^^
+The serializable class SwitchContainsClasses does not declare a static final serialVersionUID field of type long
+----------
+562. WARNING in lsedit/TemporalTa.java (at line 1416)
+	int		i;
+	   		^
+The local variable i is never read
+----------
+563. WARNING in lsedit/TemporalTa.java (at line 1458)
+	class CutClipboard extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^
+The serializable class CutClipboard does not declare a static final serialVersionUID field of type long
+----------
+564. WARNING in lsedit/TemporalTa.java (at line 1513)
+	class PasteClipboard extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^^^
+The serializable class PasteClipboard does not declare a static final serialVersionUID field of type long
+----------
+565. WARNING in lsedit/TemporalTa.java (at line 1560)
+	public class TemporalTa extends UndoableTa 
+	             ^^^^^^^^^^
+The serializable class TemporalTa does not declare a static final serialVersionUID field of type long
+----------
+566. WARNING in lsedit/TemporalTa.java (at line 2234)
+	class ImportEntity extends MyUndoableEdit implements UndoableEdit
+	      ^^^^^^^^^^^^
+The serializable class ImportEntity does not declare a static final serialVersionUID field of type long
+----------
+----------
+567. WARNING in lsedit/TextBox.java (at line 4)
+	import java.awt.Font;
+	       ^^^^^^^^^^^^^
+The import java.awt.Font is never used
+----------
+568. WARNING in lsedit/TextBox.java (at line 9)
+	public class TextBox extends JTextArea
+	             ^^^^^^^
+The serializable class TextBox does not declare a static final serialVersionUID field of type long
+----------
+----------
+569. WARNING in lsedit/TocBox.java (at line 3)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+570. WARNING in lsedit/TocBox.java (at line 8)
+	import java.awt.Graphics;
+	       ^^^^^^^^^^^^^^^^^
+The import java.awt.Graphics is never used
+----------
+571. WARNING in lsedit/TocBox.java (at line 9)
+	import java.awt.GridLayout;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.awt.GridLayout is never used
+----------
+572. WARNING in lsedit/TocBox.java (at line 11)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+573. WARNING in lsedit/TocBox.java (at line 16)
+	import java.util.Enumeration;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import java.util.Enumeration is never used
+----------
+574. WARNING in lsedit/TocBox.java (at line 20)
+	import javax.swing.JComponent;
+	       ^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JComponent is never used
+----------
+575. WARNING in lsedit/TocBox.java (at line 21)
+	import javax.swing.JLabel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JLabel is never used
+----------
+576. WARNING in lsedit/TocBox.java (at line 22)
+	import javax.swing.JPanel;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JPanel is never used
+----------
+577. WARNING in lsedit/TocBox.java (at line 35)
+	import javax.swing.tree.TreeSelectionModel;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.tree.TreeSelectionModel is never used
+----------
+578. WARNING in lsedit/TocBox.java (at line 36)
+	import javax.swing.tree.ExpandVetoException;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.tree.ExpandVetoException is never used
+----------
+579. WARNING in lsedit/TocBox.java (at line 49)
+	class MyTreePath extends TreePath
+	      ^^^^^^^^^^
+The serializable class MyTreePath does not declare a static final serialVersionUID field of type long
+----------
+580. WARNING in lsedit/TocBox.java (at line 95)
+	class MyTreeCellRenderer extends DefaultTreeCellRenderer /* extends JLabel */
+	      ^^^^^^^^^^^^^^^^^^
+The serializable class MyTreeCellRenderer does not declare a static final serialVersionUID field of type long
+----------
+581. WARNING in lsedit/TocBox.java (at line 112)
+	int						cnt;
+	   						^^^
+The local variable cnt is never read
+----------
+582. WARNING in lsedit/TocBox.java (at line 143)
+	public final class TocBox extends JTree implements Scrollable, ChangeListener, TaListener, TreeModel, TreeExpansionListener, MouseListener, MouseMotionListener
+	                   ^^^^^^
+The serializable class TocBox does not declare a static final serialVersionUID field of type long
+----------
+583. WARNING in lsedit/TocBox.java (at line 645)
+	EntityInstance	root;
+	              	^^^^
+The local variable root is never read
+----------
+584. WARNING in lsedit/TocBox.java (at line 709)
+	Diagram			diagram;
+	       			^^^^^^^
+The local variable diagram is never read
+----------
+----------
+585. WARNING in lsedit/ToolBarButton.java (at line 182)
+	int x = ev.getX();
+	    ^
+The local variable x is never read
+----------
+586. WARNING in lsedit/ToolBarButton.java (at line 183)
+	int y = ev.getY();
+	    ^
+The local variable y is never read
+----------
+----------
+587. WARNING in lsedit/UndoableTa.java (at line 3)
+	import java.awt.FontMetrics;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import java.awt.FontMetrics is never used
+----------
+588. WARNING in lsedit/UndoableTa.java (at line 15)
+	class MyUndoManager extends UndoManager {
+	      ^^^^^^^^^^^^^
+The serializable class MyUndoManager does not declare a static final serialVersionUID field of type long
+----------
+589. WARNING in lsedit/UndoableTa.java (at line 46)
+	public class UndoableTa extends EditableTa implements UndoableEditListener  
+	             ^^^^^^^^^^
+The serializable class UndoableTa does not declare a static final serialVersionUID field of type long
+----------
+----------
+590. WARNING in lsedit/UndoBox.java (at line 5)
+	import java.awt.Component;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Component is never used
+----------
+591. WARNING in lsedit/UndoBox.java (at line 13)
+	import java.awt.Insets;
+	       ^^^^^^^^^^^^^^^
+The import java.awt.Insets is never used
+----------
+592. WARNING in lsedit/UndoBox.java (at line 14)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+593. WARNING in lsedit/UndoBox.java (at line 33)
+	import javax.swing.JFrame;
+	       ^^^^^^^^^^^^^^^^^^
+The import javax.swing.JFrame is never used
+----------
+594. WARNING in lsedit/UndoBox.java (at line 35)
+	import javax.swing.JOptionPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JOptionPane is never used
+----------
+595. WARNING in lsedit/UndoBox.java (at line 38)
+	import javax.swing.JScrollPane;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JScrollPane is never used
+----------
+596. WARNING in lsedit/UndoBox.java (at line 41)
+	import javax.swing.JViewport;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.JViewport is never used
+----------
+597. WARNING in lsedit/UndoBox.java (at line 47)
+	public final class UndoBox extends TabBox implements ChangeListener, TaListener, ToolBarEventHandler, MouseListener, MouseMotionListener
+	                   ^^^^^^^
+The serializable class UndoBox does not declare a static final serialVersionUID field of type long
+----------
+598. WARNING in lsedit/UndoBox.java (at line 49)
+	public class ShowCompoundEdit extends JDialog { 
+	             ^^^^^^^^^^^^^^^^
+The serializable class ShowCompoundEdit does not declare a static final serialVersionUID field of type long
+----------
+599. WARNING in lsedit/UndoBox.java (at line 51)
+	public class ShowCompoundEditPanel extends JComponent {
+	             ^^^^^^^^^^^^^^^^^^^^^
+The serializable class ShowCompoundEditPanel does not declare a static final serialVersionUID field of type long
+----------
+600. WARNING in lsedit/UndoBox.java (at line 91)
+	int				x, y, width, height, w;
+	   				             ^^^^^^
+The local variable height is never read
+----------
+601. WARNING in lsedit/UndoBox.java (at line 141)
+	public class ShowMaxUndo extends JDialog implements ActionListener {
+	             ^^^^^^^^^^^
+The serializable class ShowMaxUndo does not declare a static final serialVersionUID field of type long
+----------
+602. WARNING in lsedit/UndoBox.java (at line 278)
+	String			name;
+	      			^^^^
+The local variable name is never read
+----------
+603. WARNING in lsedit/UndoBox.java (at line 664)
+	String			name;
+	      			^^^^
+The local variable name is never read
+----------
+----------
+604. WARNING in lsedit/Util.java (at line 6)
+	import java.awt.Font;
+	       ^^^^^^^^^^^^^
+The import java.awt.Font is never used
+----------
+605. WARNING in lsedit/Util.java (at line 9)
+	import java.awt.Rectangle;
+	       ^^^^^^^^^^^^^^^^^^
+The import java.awt.Rectangle is never used
+----------
+606. WARNING in lsedit/Util.java (at line 12)
+	import java.text.SimpleDateFormat;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import java.text.SimpleDateFormat is never used
+----------
+607. WARNING in lsedit/Util.java (at line 16)
+	import java.util.Hashtable;
+	       ^^^^^^^^^^^^^^^^^^^
+The import java.util.Hashtable is never used
+----------
+608. WARNING in lsedit/Util.java (at line 790)
+	int			len, ht, inset, x2;
+	   			     ^^
+The local variable ht is never read
+----------
+----------
+609. WARNING in lsedit/Vertex.java (at line 16)
+	private boolean isDummy;
+	                ^^^^^^^
+The field Vertex.isDummy is never read locally
+----------
+----------
+610. WARNING in lsedit/ViewBox.java (at line 5)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+611. WARNING in lsedit/ViewBox.java (at line 70)
+	class Add extends JButton implements ActionListener, MouseListener
+	      ^^^
+The serializable class Add does not declare a static final serialVersionUID field of type long
+----------
+612. WARNING in lsedit/ViewBox.java (at line 151)
+	public class ViewBox extends TabBox /* extends JComponent */ implements ChangeListener, TaListener
+	             ^^^^^^^
+The serializable class ViewBox does not declare a static final serialVersionUID field of type long
+----------
+613. WARNING in lsedit/ViewBox.java (at line 222)
+	Component	c;
+	         	^
+The local variable c is never read
+----------
+----------
+614. WARNING in lsedit/View.java (at line 28)
+	import javax.swing.event.ChangeEvent;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.event.ChangeEvent is never used
+----------
+615. WARNING in lsedit/View.java (at line 29)
+	import javax.swing.event.ChangeListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import javax.swing.event.ChangeListener is never used
+----------
+616. WARNING in lsedit/View.java (at line 109)
+	class ViewName extends JDialog implements ActionListener {
+	      ^^^^^^^^
+The serializable class ViewName does not declare a static final serialVersionUID field of type long
+----------
+617. WARNING in lsedit/View.java (at line 251)
+	JButton		 foreground, background;
+	       		 ^^^^^^^^^^
+The local variable foreground is never read
+----------
+618. WARNING in lsedit/View.java (at line 251)
+	JButton		 foreground, background;
+	       		             ^^^^^^^^^^
+The local variable background is never read
+----------
+619. WARNING in lsedit/View.java (at line 272)
+	class ViewMove extends JDialog implements ActionListener {
+	      ^^^^^^^^
+The serializable class ViewMove does not declare a static final serialVersionUID field of type long
+----------
+620. WARNING in lsedit/View.java (at line 353)
+	class View extends JButton implements ActionListener, MouseListener
+	      ^^^^
+The serializable class View does not declare a static final serialVersionUID field of type long
+----------
+621. WARNING in lsedit/View.java (at line 528)
+	Enumeration		en;
+	           		^^
+The local variable en is never read
+----------
+622. WARNING in lsedit/View.java (at line 532)
+	RelationInstance ri;
+	                 ^^
+The local variable ri is never read
+----------
+623. WARNING in lsedit/View.java (at line 771)
+	EntityInstance	e;
+	              	^
+The local variable e is never read
+----------
+624. WARNING in lsedit/View.java (at line 875)
+	RelationClass	rc;
+	             	^^
+The local variable rc is never read
+----------
+625. WARNING in lsedit/View.java (at line 926)
+	LandscapeEditorCore ls      = diagram.getLs();
+	                    ^^
+The local variable ls is never read
+----------
+----------
+626. WARNING in lsedit/Vista.java (at line 4)
+	import java.awt.Color;
+	       ^^^^^^^^^^^^^^
+The import java.awt.Color is never used
+----------
+627. WARNING in lsedit/Vista.java (at line 57)
+	public class PrintWhat extends JDialog implements ActionListener {
+	             ^^^^^^^^^
+The serializable class PrintWhat does not declare a static final serialVersionUID field of type long
+----------
+628. WARNING in lsedit/Vista.java (at line 248)
+	public class PrintConfirm extends JDialog implements ActionListener {
+	             ^^^^^^^^^^^^
+The serializable class PrintConfirm does not declare a static final serialVersionUID field of type long
+----------
+628 problems (628 warnings)]0;owlguest@lm-rdk-s2e-2:~/src/lsedit-7.4.2[owlguest@lm-rdk-s2e-2 lsedit-7.4.2]$ exit
+exit
+
+Script done on Thu Feb  7 12:46:58 2013
