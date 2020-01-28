@@ -1,7 +1,0 @@
-			StackTraceElement[] stack = e.getStackTrace();
-			int					i;
-
-			msg = e.getMessage() + "\n\n";
-			for (i = stack.length; i > 0; ) {
-				msg += stack[--i].toString() + "\n";
-			}

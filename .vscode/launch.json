@@ -6,10 +6,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-LandscapeEditorFrame<lsedit_2129441d>",
+            "name": "Debug (Launch)-LandscapeEditorFrame",
             "request": "launch",
             "mainClass": "lsedit.LandscapeEditorFrame",
-            "projectName": "lsedit_2129441d"
         }
     ]
 }

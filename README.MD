@@ -6,6 +6,22 @@ LSEDIT - Landscape edit by SWAG, University of Waterloo
 # License
 We're contacting the SWAG team for more information about licensing of this source code.
 
+# Compile and Package
+
+Run these code in project root folder
+
+To compile
+
+```s
+javac -g -classpath . lsedit/*.java
+```
+
+To package
+
+```s
+jar cv lsedit\*.class > lsedit.jar
+```
+
 # Run
 
 > Java version: 13
